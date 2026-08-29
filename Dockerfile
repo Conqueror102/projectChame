@@ -4,26 +4,38 @@ WORKDIR /var/www/html
 
 RUN apt-get update && apt-get install -y \
     build-essential \
+    git \
+    curl \
+    unzip \
     libpng-dev \
     libjpeg-dev \
     libpq-dev \
     libonig-dev \
     libxml2-dev \
+    libzip-dev \
+    libicu-dev \
     zip \
-    unzip \
-    git \
-    curl \
-    && docker-php-ext-configure pgsql --with-pgsql=/usr/local \
-    && docker-php-ext-install pdo pdo_pgsql pgsql mbstring exif pcntl bcmath gd \
+    && docker-php-ext-configure gd --with-jpeg \
+    && docker-php-ext-install \
+        pdo \
+        pdo_pgsql \
+        pgsql \
+        mbstring \
+        exif \
+        pcntl \
+        bcmath \
+        gd \
+        zip \
+        intl \
     && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-COPY . /var/www/html
+COPY composer.json composer.lock ./
+RUN composer install --no-interaction --no-plugins --no-scripts --no-dev --prefer-dist --optimize-autoloader
 
-RUN composer install --no-dev --optimize-autoloader --no-interaction
-RUN npm install
-RUN npm run build
+COPY . .
 
-RUN chown -R www-data:www-data /var/www/html \
+RUN php artisan package:discover || true \
+    && chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html/storage /var/www/html/bootstrap/cache
 
 EXPOSE 8000
