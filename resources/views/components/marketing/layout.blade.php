@@ -1,0 +1,33 @@
+@props([
+    'title' => 'Project Cham',
+    'description' => 'Structured support, advocacy, and access to care for children battling cancer and their families.',
+])
+
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{ $description }}">
+        <meta name="theme-color" content="#0d1c15">
+
+        <title>{{ $title }}</title>
+
+        <link rel="icon" href="/favicon.ico" sizes="any">
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+        @fonts
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
+    </head>
+
+    <body class="min-w-80 bg-cham-paper font-sans text-cham-ink antialiased selection:bg-cham-gold selection:text-cham-ink">
+        <x-marketing.header />
+
+        <main>
+            {{ $slot }}
+        </main>
+
+        <x-marketing.footer />
+    </body>
+</html>

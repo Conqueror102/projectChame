@@ -1,0 +1,126 @@
+@import 'tailwindcss';
+@import '../../vendor/livewire/flux/dist/flux.css';
+
+@source '../views';
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../vendor/livewire/flux-pro/stubs/**/*.blade.php';
+@source '../../vendor/livewire/flux/stubs/**/*.blade.php';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --font-sans: 'Noto Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-display: 'Lexend', ui-sans-serif, system-ui, sans-serif;
+    --font-hero: 'Varela Round', ui-sans-serif, system-ui, sans-serif;
+    --font-handwriting: 'Indie Flower', cursive;
+
+    --color-cham-pink-50: #fff1f5;
+    --color-cham-pink-100: #ffe2ea;
+    --color-cham-pink-200: #ffc0d0;
+    --color-cham-pink-300: #ff91ac;
+    --color-cham-pink-400: #f85d82;
+    --color-cham-pink-500: #eb3761;
+    --color-cham-pink-600: #d51f4e;
+    --color-cham-pink-700: #b71943;
+    --color-cham-pink-800: #96183c;
+    --color-cham-pink-900: #7d1837;
+    --color-cham-pink-950: #460819;
+
+    --color-cham-blue-50: #eff7ff;
+    --color-cham-blue-100: #ddeeff;
+    --color-cham-blue-200: #bfdeff;
+    --color-cham-blue-300: #8fc7ff;
+    --color-cham-blue-400: #55a8f5;
+    --color-cham-blue-500: #2186e2;
+    --color-cham-blue-600: #0a63c7;
+    --color-cham-blue-700: #0b50a3;
+    --color-cham-blue-800: #0d4486;
+    --color-cham-blue-900: #103b6f;
+    --color-cham-blue-950: #0a2344;
+
+    --color-cham-primary: var(--color-cham-pink-500);
+    --color-cham-primary-hover: var(--color-cham-pink-600);
+    --color-cham-primary-soft: var(--color-cham-pink-100);
+    --color-cham-secondary: var(--color-cham-blue-600);
+    --color-cham-secondary-hover: var(--color-cham-blue-700);
+    --color-cham-secondary-soft: var(--color-cham-blue-100);
+    --color-cham-ink: #242429;
+    --color-cham-paper: #f8f7fa;
+    --color-cham-surface: #ffffff;
+    --color-cham-stone: #626467;
+    --color-cham-line: #dce2ea;
+
+    /* Temporary compatibility aliases for existing marketing components. */
+    --color-cham-forest: var(--color-cham-blue-900);
+    --color-cham-gold: var(--color-cham-primary);
+    --color-cham-gold-dark: var(--color-cham-primary-hover);
+
+    --color-zinc-50: #fafafa;
+    --color-zinc-100: #f5f5f5;
+    --color-zinc-200: #e5e5e5;
+    --color-zinc-300: #d4d4d4;
+    --color-zinc-400: #a3a3a3;
+    --color-zinc-500: #737373;
+    --color-zinc-600: #525252;
+    --color-zinc-700: #404040;
+    --color-zinc-800: #262626;
+    --color-zinc-900: #171717;
+    --color-zinc-950: #0a0a0a;
+
+    --color-accent: var(--color-cham-primary);
+    --color-accent-content: var(--color-cham-primary-hover);
+    --color-accent-foreground: var(--color-white);
+}
+
+@layer theme {
+    .dark {
+        --color-accent: var(--color-cham-pink-400);
+        --color-accent-content: var(--color-cham-pink-300);
+        --color-accent-foreground: var(--color-cham-ink);
+    }
+}
+
+@layer base {
+
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentColor);
+    }
+}
+
+[data-flux-field]:not(ui-radio, ui-checkbox) {
+    @apply grid gap-2;
+}
+
+[data-flux-label] {
+    @apply  !mb-0 !leading-tight;
+}
+
+input:focus[data-flux-control],
+textarea:focus[data-flux-control],
+select:focus[data-flux-control] {
+    @apply outline-hidden ring-2 ring-accent ring-offset-2 ring-offset-accent-foreground;
+}
+
+@layer components {
+    .marketing-paper {
+        background-color: var(--color-cham-paper);
+        background-image:
+            linear-gradient(rgb(248 247 250 / 0.7), rgb(248 247 250 / 0.7)),
+            url('../images/marketing/project-cham-paper-texture.png');
+        background-size: auto, 640px 640px;
+    }
+
+    .marketing-focus-ring {
+        @apply focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cham-primary;
+    }
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}
