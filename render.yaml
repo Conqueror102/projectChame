@@ -15,31 +15,21 @@ services:
       - key: APP_NAME
         value: CharityWeb
       - key: APP_URL
-        value: https://charityweb.onrender.com
+        value: https://your-render-url.onrender.com
       - key: APP_KEY
         generateValue: true
       - key: DB_CONNECTION
         value: pgsql
       - key: DB_HOST
-        fromDatabase:
-          name: charityweb-db
-          property: host
+        value: your-db-host
       - key: DB_PORT
-        fromDatabase:
-          name: charityweb-db
-          property: port
+        value: "5432"
       - key: DB_DATABASE
-        fromDatabase:
-          name: charityweb-db
-          property: database
+        value: your-db-name
       - key: DB_USERNAME
-        fromDatabase:
-          name: charityweb-db
-          property: user
+        value: your-db-user
       - key: DB_PASSWORD
-        fromDatabase:
-          name: charityweb-db
-          property: password
+        value: your-db-password
       - key: SESSION_DRIVER
         value: database
       - key: CACHE_STORE
@@ -50,8 +40,3 @@ services:
         value: "12"
       - key: MAIL_MAILER
         value: log
-
-databases:
-  - name: charityweb-db
-    databaseName: charityweb
-    user: charityweb
