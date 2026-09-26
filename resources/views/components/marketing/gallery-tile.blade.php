@@ -7,13 +7,26 @@
     'imagePosition' => 'center',
 ])
 
+@php
+    $resolvedImage = $image ?? '';
+    if (empty($resolvedImage)) {
+        $resolvedImage = Vite::asset('resources/images/marketing/project-cham-get-involved-support-child.png');
+    } elseif (str_starts_with($resolvedImage, 'resources/')) {
+        $resolvedImage = Vite::asset($resolvedImage);
+    } elseif (str_starts_with($resolvedImage, 'http://') || str_starts_with($resolvedImage, 'https://')) {
+        // Keep as is
+    } else {
+        $resolvedImage = asset(ltrim($resolvedImage, '/'));
+    }
+@endphp
+
 <figure
     {{ $attributes->class(['group relative isolate min-h-0 overflow-hidden rounded-[1.5rem] bg-cham-blue-950 shadow-[0_18px_50px_rgb(10_35_68_/_0.14)]']) }}
 >
     <img
         class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.045]"
         style="object-position: {{ $imagePosition }}"
-        src="{{ Vite::asset($image) }}"
+        src="{{ $resolvedImage }}"
         alt="{{ $alt }}"
         width="1536"
         height="1024"

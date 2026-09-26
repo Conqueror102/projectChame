@@ -23,24 +23,24 @@
             </p>
 
             <h2 id="programs-heading" class="font-hero mt-4 text-4xl leading-[1.08] font-semibold tracking-[-0.035em] text-cham-ink sm:text-[2.75rem] lg:text-[2.75rem]">
-                Three ways we turn support into <span class="font-handwriting inline-block font-normal tracking-normal text-cham-gold-dark">real impact.</span>
+                Four strategic pillars advancing <span class="font-handwriting inline-block font-normal tracking-normal text-cham-gold-dark">childhood cancer care.</span>
             </h2>
 
             <p class="mx-auto mt-4 max-w-2xl text-base leading-7 text-cham-stone">
-                Our programs connect awareness, family support, and access to care—so every effort moves a child toward better outcomes.
+                From grassroots education to clinical aid, family psychosocial stability, and evidence-based research, our pillars form a comprehensive circle of care for children in Nigeria.
             </p>
 
             <x-marketing.button-link class="mt-5" :href="route('programs')" variant="secondary">
-                Explore all programs
+                Explore our full approach
             </x-marketing.button-link>
         </div>
 
-        <div class="mt-9 grid gap-6 md:grid-cols-3 lg:mt-12 lg:gap-7">
+        <div class="mt-9 grid gap-6 sm:grid-cols-2 lg:grid-cols-4 lg:mt-12 lg:gap-6">
             <x-marketing.program-card
-                title="Awareness & Advocacy"
-                description="Driving awareness to promote early detection and informed action."
+                title="Awareness & Early Action"
+                description="Educating parents, caregivers, and communities to recognize early warning signs and seek medical evaluation promptly."
                 image="resources/images/marketing/project-cham-about-support.png"
-                alt="Black children learning together during a guided awareness activity"
+                alt="Black children and educator participating in a guided awareness session"
                 image-position="center"
             >
                 <x-slot:icon>
@@ -51,10 +51,24 @@
             </x-marketing.program-card>
 
             <x-marketing.program-card
-                title="Child & Family Support"
-                description="Providing structured emotional, financial, and community-based support."
+                title="Treatment & Care Support"
+                description="Helping children and families access essential clinical support, medications, chemotherapy, and diagnostic biopsies."
+                image="resources/images/marketing/project-cham-about-family-support.png"
+                alt="Healthcare professional and volunteer assisting a child during care"
+                image-position="center"
+            >
+                <x-slot:icon>
+                    <svg class="size-6" viewBox="0 0 24 24" fill="none">
+                        <path d="M9.5 4h5v5h5v5h-5v5h-5v-5h-5V9h5V4Z" fill="currentColor"/>
+                    </svg>
+                </x-slot:icon>
+            </x-marketing.program-card>
+
+            <x-marketing.program-card
+                title="Family & Psychosocial Support"
+                description="Recognizing that cancer affects the entire family through emotional circles, emergency relief, and caregiver sustenance."
                 image="resources/images/marketing/project-cham-about-portrait.png"
-                alt="Two Black children taking part in a supportive art activity"
+                alt="Children taking part in a supportive art and counseling activity"
                 image-position="52% center"
             >
                 <x-slot:icon>
@@ -65,15 +79,16 @@
             </x-marketing.program-card>
 
             <x-marketing.program-card
-                title="Access to Care"
-                description="Connecting families to treatment partners and the critical resources they need."
-                image="resources/images/marketing/project-cham-about-family-support.png"
-                alt="A Black mother and child meeting with a family-support navigator"
+                title="Research & Advocacy"
+                description="Using evidence, epidemiological data, and institutional clinical partnerships to improve childhood cancer outcomes and policy."
+                image="resources/images/marketing/project-cham-get-involved-partner.png"
+                alt="Healthcare and research partners collaborating on paediatric oncology outcomes"
                 image-position="center"
             >
                 <x-slot:icon>
-                    <svg class="size-6" viewBox="0 0 24 24" fill="none">
-                        <path d="M9.5 4h5v5h5v5h-5v5h-5v-5h-5V9h5V4Z" fill="currentColor"/>
+                    <svg class="size-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
                     </svg>
                 </x-slot:icon>
             </x-marketing.program-card>

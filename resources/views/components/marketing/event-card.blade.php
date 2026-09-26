@@ -10,6 +10,19 @@
     'imagePosition' => 'center',
 ])
 
+@php
+    $resolvedImage = $image ?? '';
+    if (empty($resolvedImage)) {
+        $resolvedImage = Vite::asset('resources/images/marketing/project-cham-impact-awareness.png');
+    } elseif (str_starts_with($resolvedImage, 'resources/')) {
+        $resolvedImage = Vite::asset($resolvedImage);
+    } elseif (str_starts_with($resolvedImage, 'http://') || str_starts_with($resolvedImage, 'https://')) {
+        // Keep as is
+    } else {
+        $resolvedImage = asset(ltrim($resolvedImage, '/'));
+    }
+@endphp
+
 <article
     {{ $attributes->class(['group w-[82vw] max-w-[18rem] shrink-0 snap-start overflow-hidden rounded-[1.15rem] bg-cham-blue-950 shadow-[0_18px_45px_rgb(0_0_0_/_0.18)] sm:w-[17rem] lg:w-auto lg:max-w-none']) }}
 >
@@ -17,7 +30,7 @@
         <img
             class="h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
             style="object-position: {{ $imagePosition }}"
-            src="{{ Vite::asset($image) }}"
+            src="{{ $resolvedImage }}"
             alt="{{ $alt }}"
             width="1536"
             height="1229"

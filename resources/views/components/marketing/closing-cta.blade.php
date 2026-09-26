@@ -25,15 +25,15 @@
                     </p>
 
                     <h2 id="closing-cta-heading" class="font-hero mt-4 text-4xl leading-[1.08] font-semibold tracking-[-0.035em] sm:text-5xl">
-                        Help every child reach <span class="font-handwriting inline-block font-normal tracking-normal text-cham-primary">care and possibility.</span>
+                        No child should face cancer <span class="font-handwriting inline-block font-normal tracking-normal text-cham-primary">alone.</span>
                     </h2>
 
                     <p class="mt-5 max-w-lg text-base leading-7 text-white/75">
-                        Project Cham is built on one goal: to ensure that every child battling cancer receives the support, care, and opportunity needed to survive and thrive.
+                        Project CHAM is built on one conviction: to ensure that every child battling cancer receives the support, care, and opportunity needed to survive and thrive.
                     </p>
 
-                    <x-marketing.button-link href="#get-involved" class="mt-7 bg-cham-primary text-white hover:bg-cham-primary-hover">
-                        Get involved
+                    <x-marketing.button-link :href="route('donate')" class="mt-7 bg-cham-primary text-white hover:bg-cham-primary-hover">
+                        Donate / Support a child
                     </x-marketing.button-link>
                 </div>
             </div>

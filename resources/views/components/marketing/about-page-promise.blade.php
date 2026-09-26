@@ -12,15 +12,15 @@
                     Every child deserves the support, care, and opportunity needed to <span class="font-handwriting inline-block font-normal tracking-normal text-cham-blue-950">survive and thrive.</span>
                 </h2>
                 <p class="mx-auto mt-6 max-w-2xl text-base leading-8 text-white/78">
-                    We go beyond awareness to help children and families receive real, structured, and consistent support.
+                    We go beyond awareness to ensure every child fighting cancer has access to critical care, family support, and unwavering hope.
                 </p>
 
                 <div class="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
-                    <x-marketing.button-link :href="route('home').'#support-a-child'" class="bg-cham-blue-950 text-white hover:bg-cham-ink">
-                        Support a child
+                    <x-marketing.button-link :href="route('donate')" class="bg-cham-blue-950 text-white hover:bg-cham-ink">
+                        Donate / Support a Child
                     </x-marketing.button-link>
-                    <x-marketing.button-link :href="route('home').'#partner-with-us'" variant="light">
-                        Partner with Project Cham
+                    <x-marketing.button-link :href="route('donate').'#partner'" variant="light">
+                        Partner with Project CHAM
                     </x-marketing.button-link>
                 </div>
             </div>

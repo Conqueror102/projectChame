@@ -11,9 +11,37 @@
             </flux:sidebar.header>
 
             <flux:sidebar.nav>
-                <flux:sidebar.group :heading="__('Platform')" class="grid">
+                <flux:sidebar.group :heading="__('Overview')" class="grid">
                     <flux:sidebar.item icon="home" :href="route('dashboard')" :current="request()->routeIs('dashboard')" wire:navigate>
                         {{ __('Dashboard') }}
+                    </flux:sidebar.item>
+                </flux:sidebar.group>
+
+                <flux:sidebar.group :heading="__('Content Management')" class="grid">
+                    <flux:sidebar.item icon="document-text" :href="route('admin.posts.index')" :current="request()->routeIs('admin.posts.*')" wire:navigate>
+                        {{ __('Stories & Blog') }}
+                    </flux:sidebar.item>
+
+                    <flux:sidebar.item icon="calendar" :href="route('admin.events.index')" :current="request()->routeIs('admin.events.*')" wire:navigate>
+                        {{ __('Events') }}
+                    </flux:sidebar.item>
+
+                    <flux:sidebar.item icon="photo" :href="route('admin.gallery.index')" :current="request()->routeIs('admin.gallery.*')" wire:navigate>
+                        {{ __('Gallery') }}
+                    </flux:sidebar.item>
+
+                    <flux:sidebar.item icon="users" :href="route('admin.team.index')" :current="request()->routeIs('admin.team.*')" wire:navigate>
+                        {{ __('Team') }}
+                    </flux:sidebar.item>
+
+                    <flux:sidebar.item icon="chat-bubble-bottom-center-text" :href="route('admin.reviews.index')" :current="request()->routeIs('admin.reviews.*')" wire:navigate>
+                        {{ __('Reviews & Voices') }}
+                    </flux:sidebar.item>
+                </flux:sidebar.group>
+
+                <flux:sidebar.group :heading="__('Donors & Outreach')" class="grid">
+                    <flux:sidebar.item icon="heart" :href="route('admin.donors.index')" :current="request()->routeIs('admin.donors.*')" wire:navigate>
+                        {{ __('Donor Inquiries') }}
                     </flux:sidebar.item>
                 </flux:sidebar.group>
             </flux:sidebar.nav>
@@ -21,12 +49,8 @@
             <flux:spacer />
 
             <flux:sidebar.nav>
-                <flux:sidebar.item icon="folder-git-2" href="https://github.com/laravel/livewire-starter-kit" target="_blank">
-                    {{ __('Repository') }}
-                </flux:sidebar.item>
-
-                <flux:sidebar.item icon="book-open-text" href="https://laravel.com/docs/starter-kits#livewire" target="_blank">
-                    {{ __('Documentation') }}
+                <flux:sidebar.item icon="arrow-top-right-on-square" :href="route('home')" target="_blank">
+                    {{ __('View Public Site') }}
                 </flux:sidebar.item>
             </flux:sidebar.nav>
 

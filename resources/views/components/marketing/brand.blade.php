@@ -15,6 +15,6 @@
 
     <span class="grid leading-none">
         <span class="font-display text-lg font-bold tracking-tight">Project Cham</span>
-        <span class="mt-1 text-[0.52rem] font-semibold tracking-[0.2em] text-white/60 uppercase">Care · Structure · Impact</span>
+        <span class="mt-1 text-[0.52rem] font-semibold tracking-[0.2em] text-white/60 uppercase">Care · Hope · Impact</span>
     </span>
 </a>

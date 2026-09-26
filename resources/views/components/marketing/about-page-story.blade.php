@@ -39,29 +39,29 @@
                         <path d="M10 16c-2.4-2.2-6-4.8-6-8.5A3.6 3.6 0 0 1 10 4.8a3.6 3.6 0 0 1 6 2.7c0 3.7-3.6 6.3-6 8.5Z" fill="currentColor"/>
                     </svg>
                 </span>
-                Who we are
+                Our Story
             </p>
 
             <h2 id="about-story-heading" class="font-hero mt-5 text-4xl leading-[1.05] font-semibold tracking-[-0.04em] text-cham-ink sm:text-5xl">
-                Built around the child. <span class="font-handwriting inline-block font-normal tracking-normal text-cham-primary">Designed around outcomes.</span>
+                No child should face cancer <span class="font-handwriting inline-block font-normal tracking-normal text-cham-primary">without hope.</span>
             </h2>
 
             <p class="mt-6 text-base leading-8 text-cham-stone">
-                Project Cham is a childhood cancer-focused initiative committed to supporting children and their families through advocacy, structured support systems, and access to critical care resources.
+                <strong>Project CHAM began with a simple conviction:</strong> no child should face cancer without care, support, and hope. Walking into hospital wards and meeting families in Nigeria, we witnessed the immense physical, emotional, and financial weight that paediatric cancer places on parents and children alike.
             </p>
 
             <p class="mt-4 text-base leading-8 text-cham-stone">
-                We exist to ensure that children battling cancer are not left without the practical, emotional, and care-connected support required to improve their chances of survival.
+                Too often, treatment is delayed because warning signs are not recognized early, and families feel utterly isolated between clinic appointments. We founded Project CHAM to change this reality—standing directly at the bedside with practical relief, clinical access pathways, caregiver support, and community awareness.
             </p>
 
             <div class="mt-8 grid gap-4 sm:grid-cols-2">
                 <div class="rounded-[1.5rem] border border-cham-pink-200 bg-white p-5 shadow-sm">
-                    <p class="text-xs font-extrabold tracking-[0.1em] text-cham-primary uppercase">What moves us</p>
+                    <p class="text-xs font-extrabold tracking-[0.1em] text-cham-primary uppercase">Our Conviction</p>
                     <p class="font-hero mt-2 text-xl font-semibold text-cham-ink">A child should never disappear inside a diagnosis.</p>
                 </div>
                 <div class="rounded-[1.5rem] bg-cham-blue-950 p-5 text-white shadow-sm">
-                    <p class="text-xs font-extrabold tracking-[0.1em] text-cham-blue-200 uppercase">What we build</p>
-                    <p class="font-hero mt-2 text-xl font-semibold">Support families can understand, reach, and rely on.</p>
+                    <p class="text-xs font-extrabold tracking-[0.1em] text-cham-blue-200 uppercase">Our Commitment</p>
+                    <p class="font-hero mt-2 text-xl font-semibold">Care, hope, and real impact families can lean on.</p>
                 </div>
             </div>
         </div>

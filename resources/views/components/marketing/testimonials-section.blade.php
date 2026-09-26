@@ -1,3 +1,7 @@
+@php
+    $dbReviews = \App\Models\Review::active()->ordered()->get();
+@endphp
+
 <section id="family-voices" class="relative isolate overflow-hidden bg-cham-blue-950 text-white" aria-labelledby="family-voices-heading">
     <img
         class="absolute inset-0 h-full w-full object-cover object-[58%_center]"
@@ -34,19 +38,30 @@
         <div class="lg:col-span-6 lg:col-start-7">
             <div class="overflow-hidden rounded-[1.35rem] bg-white text-cham-ink shadow-[0_22px_60px_rgb(0_0_0_/_0.26)] ring-1 ring-white/40">
                 <div id="family-voices-rail" data-support-rail class="flex snap-x snap-mandatory overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" aria-label="Family reflections">
-                    <x-marketing.testimonial-card
-                        quote="Having one place to ask questions and understand the next step made the journey feel less overwhelming. Consistent support gave our family room to focus on our child."
-                        source="A Project Cham family"
-                        meta="Identity protected"
-                        initials="PC"
-                    />
+                    @if ($dbReviews->isNotEmpty())
+                        @foreach ($dbReviews as $review)
+                            <x-marketing.testimonial-card
+                                :quote="$review->content"
+                                :source="$review->author_name"
+                                :meta="$review->role ? ($review->role . ($review->meta ? ' · ' . $review->meta : '')) : ($review->meta ?? 'Identity protected')"
+                                :initials="$review->effective_initials"
+                            />
+                        @endforeach
+                    @else
+                        <x-marketing.testimonial-card
+                            quote="Having one place to ask questions and understand the next step made the journey feel less overwhelming. Consistent support gave our family room to focus on our child."
+                            source="A Project Cham family"
+                            meta="Identity protected"
+                            initials="PC"
+                        />
 
-                    <x-marketing.testimonial-card
-                        quote="The support did not end after one conversation. We were guided, checked on, and connected to people who could help when our family needed it most."
-                        source="A supported caregiver"
-                        meta="Identity protected"
-                        initials="SC"
-                    />
+                        <x-marketing.testimonial-card
+                            quote="The support did not end after one conversation. We were guided, checked on, and connected to people who could help when our family needed it most."
+                            source="A supported caregiver"
+                            meta="Identity protected"
+                            initials="SC"
+                        />
+                    @endif
                 </div>
             </div>
 

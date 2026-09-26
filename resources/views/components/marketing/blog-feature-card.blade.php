@@ -8,11 +8,24 @@
     'href',
 ])
 
+@php
+    $resolvedImage = $image ?? '';
+    if (empty($resolvedImage)) {
+        $resolvedImage = Vite::asset('resources/images/marketing/project-cham-impact-awareness.png');
+    } elseif (str_starts_with($resolvedImage, 'resources/')) {
+        $resolvedImage = Vite::asset($resolvedImage);
+    } elseif (str_starts_with($resolvedImage, 'http://') || str_starts_with($resolvedImage, 'https://')) {
+        // Keep as is
+    } else {
+        $resolvedImage = asset(ltrim($resolvedImage, '/'));
+    }
+@endphp
+
 <article class="overflow-hidden rounded-[1.25rem] border border-cham-blue-200 bg-white">
     <a href="{{ $href }}" class="marketing-focus-ring block overflow-hidden rounded-t-[1.2rem]">
         <img
             class="h-64 w-full object-cover transition duration-500 hover:scale-[1.025]"
-            src="{{ Vite::asset($image) }}"
+            src="{{ $resolvedImage }}"
             alt="{{ $alt }}"
             width="720"
             height="500"

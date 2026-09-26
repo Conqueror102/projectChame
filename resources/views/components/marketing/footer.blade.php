@@ -34,7 +34,7 @@
             <x-marketing.brand :href="route('home')" />
 
             <p class="mt-5 text-sm leading-6 text-white/62">
-                Structured support, advocacy, and access to care for children battling cancer and the families standing beside them.
+                Supporting children living with cancer and the families standing beside them through awareness, access to care, practical support, and advocacy.
             </p>
 
             <div class="mt-6 flex items-center gap-3" aria-label="Project Cham social media">
@@ -66,10 +66,12 @@
 
             <ul class="mt-5 grid gap-3 text-sm text-white/68">
                 <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('about') }}">Who we are</a></li>
+                <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('team') }}">Our team &amp; advisors</a></li>
                 <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('programs') }}">Programs</a></li>
-                <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('home') }}#impact">Impact</a></li>
-                <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('home') }}#stories">Stories</a></li>
-                <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('home') }}#get-involved">Get involved</a></li>
+                <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('stories.index') }}">Stories &amp; guidance</a></li>
+                <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('events.index') }}">Upcoming events</a></li>
+                <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('gallery') }}">Documentary gallery</a></li>
+                <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('donate') }}">Donate &amp; support</a></li>
             </ul>
         </div>
 
@@ -94,14 +96,14 @@
             </p>
 
             <div class="mt-5 grid gap-3 text-sm font-bold">
-                <a href="{{ route('home') }}#partner-with-us" class="marketing-focus-ring inline-flex items-center gap-2 rounded-sm text-cham-blue-200 transition hover:text-white">
+                <a href="{{ route('donate') }}" class="marketing-focus-ring inline-flex items-center gap-2 rounded-sm text-cham-blue-200 transition hover:text-white">
                     <svg class="size-4" viewBox="0 0 20 20" fill="none" aria-hidden="true">
                         <path d="M3 5.5h14v9H3v-9Zm0 .5 7 5 7-5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
                     </svg>
                     Partner with us
                 </a>
 
-                <a href="{{ route('home') }}#support-a-child" class="marketing-focus-ring inline-flex items-center gap-2 rounded-sm text-cham-pink-200 transition hover:text-white">
+                <a href="{{ route('donate') }}" class="marketing-focus-ring inline-flex items-center gap-2 rounded-sm text-cham-pink-200 transition hover:text-white">
                     <svg class="size-4" viewBox="0 0 20 20" fill="none" aria-hidden="true">
                         <path d="M10 16c-2.4-2.2-6-4.8-6-8.5A3.6 3.6 0 0 1 10 4.8a3.6 3.6 0 0 1 6 2.7c0 3.7-3.6 6.3-6 8.5Z" fill="currentColor"/>
                     </svg>
@@ -118,7 +120,11 @@
     <div class="border-t border-white/10">
         <x-marketing.container class="flex flex-col gap-2 py-5 text-xs text-white/48 sm:flex-row sm:items-center sm:justify-between">
             <p>&copy; {{ date('Y') }} Project Cham. All rights reserved.</p>
-            <p>Care · Structure · Impact</p>
+            <div class="flex items-center gap-3">
+                <p>Care · Hope · Impact</p>
+                <span class="text-white/20">|</span>
+                <a href="{{ route('admin') }}" class="text-white/60 transition hover:text-cham-pink-300">Staff &amp; Admin Portal &rarr;</a>
+            </div>
         </x-marketing.container>
     </div>
 </footer>

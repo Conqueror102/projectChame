@@ -12,7 +12,7 @@
 
             <p class="mt-10 inline-flex items-center gap-3 text-sm font-bold tracking-[0.1em] text-cham-pink-200 uppercase">
                 <span class="h-px w-12 bg-cham-primary" aria-hidden="true"></span>
-                Childhood cancer support, structured
+                Care · Hope · Impact
             </p>
 
             <h1 id="about-page-hero-heading" class="font-hero mt-5 max-w-3xl text-[2.8rem] leading-[1.02] font-semibold tracking-[-0.045em] sm:text-6xl lg:text-[4.5rem]">
@@ -20,15 +20,15 @@
             </h1>
 
             <p class="mt-6 max-w-xl text-base leading-7 text-white/70 sm:text-lg sm:leading-8">
-                Project Cham improves the lives of children battling cancer by connecting awareness, structured family support, and access to care around every child.
+                Project CHAM supports children living with cancer and the families standing beside them through awareness, access to care, practical support, and advocacy.
             </p>
 
             <div class="mt-8 flex flex-col gap-3 sm:flex-row">
-                <x-marketing.button-link href="#our-philosophy">
-                    See how we think
+                <x-marketing.button-link href="#about-story-heading">
+                    Read our story
                 </x-marketing.button-link>
 
-                <x-marketing.button-link :href="route('home').'#get-involved'" variant="light">
+                <x-marketing.button-link :href="route('donate')" variant="light">
                     Stand with a child
                 </x-marketing.button-link>
             </div>
@@ -39,12 +39,12 @@
                     <dd class="font-hero mt-1 text-sm font-semibold text-white sm:text-base">Child-first</dd>
                 </div>
                 <div class="border-l border-white/12 pl-5">
-                    <dt class="text-[0.65rem] font-bold tracking-[0.12em] text-white/45 uppercase">Structure</dt>
-                    <dd class="font-hero mt-1 text-sm font-semibold text-white sm:text-base">Consistent</dd>
+                    <dt class="text-[0.65rem] font-bold tracking-[0.12em] text-white/45 uppercase">Hope</dt>
+                    <dd class="font-hero mt-1 text-sm font-semibold text-white sm:text-base">Unwavering</dd>
                 </div>
                 <div class="border-l border-white/12 pl-5">
                     <dt class="text-[0.65rem] font-bold tracking-[0.12em] text-white/45 uppercase">Impact</dt>
-                    <dd class="font-hero mt-1 text-sm font-semibold text-white sm:text-base">Visible</dd>
+                    <dd class="font-hero mt-1 text-sm font-semibold text-white sm:text-base">Measurable</dd>
                 </div>
             </dl>
         </div>

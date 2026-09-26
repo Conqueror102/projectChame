@@ -15,15 +15,15 @@
                 <dl class="mt-9 grid grid-cols-3 gap-3 border-t border-white/12 pt-7">
                     <div>
                         <dt class="font-hero text-2xl font-semibold text-cham-blue-200">01</dt>
-                        <dd class="mt-2 text-xs leading-5 text-white/60">Increased awareness</dd>
+                        <dd class="mt-2 text-xs leading-5 text-white/60">Greater awareness of warning signs</dd>
                     </div>
                     <div class="border-l border-white/12 pl-4">
                         <dt class="font-hero text-2xl font-semibold text-cham-blue-200">02</dt>
-                        <dd class="mt-2 text-xs leading-5 text-white/60">Earlier diagnosis</dd>
+                        <dd class="mt-2 text-xs leading-5 text-white/60">Knowledge of when to seek medical attention</dd>
                     </div>
                     <div class="border-l border-white/12 pl-4">
                         <dt class="font-hero text-2xl font-semibold text-cham-blue-200">03</dt>
-                        <dd class="mt-2 text-xs leading-5 text-white/60">Informed communities</dd>
+                        <dd class="mt-2 text-xs leading-5 text-white/60">Better-informed communities</dd>
                     </div>
                 </dl>
             </div>

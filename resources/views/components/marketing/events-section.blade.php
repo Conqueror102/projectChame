@@ -1,3 +1,7 @@
+@php
+    $dbEvents = \App\Models\Event::active()->upcoming()->take(4)->get();
+@endphp
+
 <section id="events" class="relative isolate overflow-hidden bg-cham-ink py-20 text-white sm:py-24 lg:py-24" aria-labelledby="events-heading">
     <img
         class="pointer-events-none absolute inset-0 h-full w-full object-cover"
@@ -32,52 +36,68 @@
                 </p>
             </div>
 
-            <x-marketing.button-link :href="route('home').'#events'" variant="primary">
+            <x-marketing.button-link :href="route('events.index')" variant="primary">
                 Explore all events
             </x-marketing.button-link>
         </div>
 
         <div class="mt-7 flex snap-x snap-mandatory gap-5 overflow-x-auto pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden lg:grid lg:grid-cols-4 lg:gap-5 lg:overflow-visible lg:pb-0">
-            <x-marketing.event-card
-                time="10:00 AM"
-                date="14 Sep, 2026"
-                location="Lagos, Nigeria"
-                title="Childhood Cancer Awareness Session"
-                image="resources/images/marketing/project-cham-impact-awareness.png"
-                alt="A Black childhood-health educator speaking with families"
-                :href="route('home').'#events'"
-            />
+            @if ($dbEvents->isNotEmpty())
+                @foreach ($dbEvents as $item)
+                    <x-marketing.event-card
+                        :time="$item->formatted_time"
+                        :date="$item->formatted_date"
+                        :location="$item->location"
+                        :title="$item->title"
+                        :image="$item->image ?? 'resources/images/marketing/project-cham-impact-awareness.png'"
+                        :alt="$item->title"
+                        :href="route('events.show', $item->slug)"
+                        :action-label="$item->action_label"
+                        :image-position="$item->image_position ?? 'center'"
+                    />
+                @endforeach
+            @else
+                <x-marketing.event-card
+                    time="10:00 AM"
+                    date="14 Sep, 2026"
+                    location="Lagos, Nigeria"
+                    title="Childhood Cancer Awareness Session"
+                    image="resources/images/marketing/project-cham-impact-awareness.png"
+                    alt="A Black childhood-health educator speaking with families"
+                    :href="route('events.index')"
+                />
 
-            <x-marketing.event-card
-                time="12:30 PM"
-                date="19 Sep, 2026"
-                location="Ikeja, Lagos"
-                title="Family Support Circle"
-                image="resources/images/marketing/project-cham-get-involved-support-child.png"
-                alt="A Black child and mother sharing a creative activity with a support volunteer"
-                :href="route('home').'#events'"
-            />
+                <x-marketing.event-card
+                    time="12:30 PM"
+                    date="19 Sep, 2026"
+                    location="Ikeja, Lagos"
+                    title="Family Support Circle"
+                    image="resources/images/marketing/project-cham-get-involved-support-child.png"
+                    alt="A Black child and mother sharing a creative activity with a support volunteer"
+                    :href="route('events.index')"
+                />
 
-            <x-marketing.event-card
-                time="9:00 AM"
-                date="26 Sep, 2026"
-                location="Surulere, Lagos"
-                title="Care Access Partner Clinic"
-                image="resources/images/marketing/project-cham-impact-care-access.png"
-                alt="A Black mother and child welcomed by a patient navigator"
-                :href="route('home').'#events'"
-            />
+                <x-marketing.event-card
+                    time="9:00 AM"
+                    date="26 Sep, 2026"
+                    location="Surulere, Lagos"
+                    title="Care Access Partner Clinic"
+                    image="resources/images/marketing/project-cham-impact-care-access.png"
+                    alt="A Black mother and child welcomed by a patient navigator"
+                    :href="route('events.index')"
+                />
 
-            <x-marketing.event-card
-                time="2:00 PM"
-                date="03 Oct, 2026"
-                location="Lagos, Nigeria"
-                title="Community Advocacy Workshop"
-                image="resources/images/marketing/project-cham-get-involved-advocate.png"
-                alt="A young Black woman leading a community awareness conversation"
-                :href="route('home').'#events'"
-                image-position="center 42%"
-            />
+                <x-marketing.event-card
+                    time="2:00 PM"
+                    date="03 Oct, 2026"
+                    location="Lagos, Nigeria"
+                    title="Community Advocacy Workshop"
+                    image="resources/images/marketing/project-cham-get-involved-advocate.png"
+                    alt="A young Black woman leading a community awareness conversation"
+                    :href="route('events.index')"
+                    image-position="center 42%"
+                />
+            @endif
         </div>
     </x-marketing.container>
 </section>

@@ -29,7 +29,7 @@
             </h2>
 
             <p class="mt-5 text-base leading-7 text-cham-stone">
-                Project Cham is a childhood cancer-focused initiative committed to supporting children and their families through advocacy, structured support systems, and access to critical care resources.
+                Project CHAM began with a simple conviction: <strong>no child should face cancer without care, support, and hope</strong>. We work directly on hospital wards and with caregivers across Nigeria to ensure vulnerable children and families are never left to fight alone.
             </p>
 
             <ul class="mt-5 grid gap-3 rounded-[1.75rem] bg-[#eef7f2]/95 p-5 backdrop-blur-[2px] sm:p-6" aria-label="Our approach">
@@ -37,24 +37,30 @@
                     <span class="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full bg-cham-secondary text-white" aria-hidden="true">
                         <svg class="size-3.5" viewBox="0 0 16 16" fill="none"><path d="m4 8 2.5 2.5L12 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </span>
-                    <span class="font-medium text-cham-ink/80">Awareness that leads to informed action</span>
+                    <span class="font-medium text-cham-ink/80">Awareness &amp; early detection education for communities</span>
                 </li>
                 <li class="flex items-start gap-3">
                     <span class="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full bg-cham-secondary text-white" aria-hidden="true">
                         <svg class="size-3.5" viewBox="0 0 16 16" fill="none"><path d="m4 8 2.5 2.5L12 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </span>
-                    <span class="font-medium text-cham-ink/80">Structured support that reaches the child directly</span>
+                    <span class="font-medium text-cham-ink/80">Direct treatment subsidies, medications, and bedside aid</span>
                 </li>
                 <li class="flex items-start gap-3">
                     <span class="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full bg-cham-secondary text-white" aria-hidden="true">
                         <svg class="size-3.5" viewBox="0 0 16 16" fill="none"><path d="m4 8 2.5 2.5L12 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </span>
-                    <span class="font-medium text-cham-ink/80">Impact that stays visible and measurable</span>
+                    <span class="font-medium text-cham-ink/80">Caregiver support circles, travel relief, and emotional care</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full bg-cham-secondary text-white" aria-hidden="true">
+                        <svg class="size-3.5" viewBox="0 0 16 16" fill="none"><path d="m4 8 2.5 2.5L12 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </span>
+                    <span class="font-medium text-cham-ink/80">Evidence-based research and institutional advocacy</span>
                 </li>
             </ul>
 
-            <x-marketing.button-link class="mt-6" :href="route('home').'#programs'" variant="secondary">
-                Discover our approach
+            <x-marketing.button-link class="mt-6" :href="route('about')" variant="secondary">
+                Read our full story &rarr;
             </x-marketing.button-link>
         </div>
     </x-marketing.container>

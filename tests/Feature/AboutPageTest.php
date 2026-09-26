@@ -6,7 +6,7 @@ test('renders the Project Cham about page', function () {
     $response
         ->assertViewIs('pages.about')
         ->assertSeeText('No child should face cancer without a clear path to support.')
-        ->assertSeeText('Built around the child. Designed around outcomes.')
+        ->assertSeeText('No child should face cancer without hope.')
         ->assertSeeText('Support without structure limits impact.')
         ->assertSeeText('Awareness must lead to action.')
         ->assertSeeText('Support must reach the child.')
@@ -20,5 +20,5 @@ test('renders the Project Cham about page', function () {
         ->assertSeeText('Collaboration')
         ->assertSeeText('Structured, not one-time')
         ->assertSeeText('Every child deserves the support, care, and opportunity needed to survive and thrive.')
-        ->assertSeeText('Partner with Project Cham');
+        ->assertSeeText('Partner with Project CHAM');
 });

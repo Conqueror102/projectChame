@@ -1,6 +1,6 @@
 <x-marketing.layout
-    title="Project Cham — Childhood Cancer Support"
-    description="Project Cham provides structured support, advocacy, and access to care for children battling cancer and their families."
+    title="Project CHAM — No Child Should Face Cancer Alone"
+    description="Project CHAM supports children living with cancer and their families in Nigeria through awareness, access to care, practical support, and advocacy."
 >
     <x-marketing.hero />
     <x-marketing.about-intro />

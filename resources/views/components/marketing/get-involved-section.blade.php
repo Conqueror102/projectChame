@@ -22,7 +22,7 @@
                     Making impact requires people and organisations who are ready to act. Choose the role that fits how you want to help children and families.
                 </p>
 
-                <x-marketing.button-link :href="route('home').'#partner-with-us'" class="mt-7" variant="secondary">
+                <x-marketing.button-link :href="route('donate')" class="mt-7" variant="secondary">
                     Find your way to help
                 </x-marketing.button-link>
             </div>
@@ -43,7 +43,7 @@
                         detail="Best for organisations and care partners"
                         image="resources/images/marketing/project-cham-get-involved-partner.png"
                         alt="Black healthcare and community partners planning support together"
-                        :href="route('home').'#partner-with-us'"
+                        :href="route('donate')"
                         action="Start a partnership"
                     />
 
@@ -55,7 +55,7 @@
                         detail="Direct support for children and families"
                         image="resources/images/marketing/project-cham-get-involved-support-child.png"
                         alt="A Black child and mother enjoying a supported creative activity with a volunteer"
-                        :href="route('home').'#support-a-child'"
+                        :href="route('donate')"
                         action="Support a child"
                     />
 

@@ -8,5 +8,6 @@
     <x-marketing.about-page-mission-vision />
     <x-marketing.about-page-values />
     <x-marketing.about-page-difference />
+    <x-marketing.about-page-team />
     <x-marketing.about-page-promise />
 </x-marketing.layout>
