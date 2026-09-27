@@ -1,0 +1,116 @@
+{
+  "_fonts-BqMjav-5.css": {
+    "file": "assets/fonts-BqMjav-5.css",
+    "src": "_fonts-BqMjav-5.css"
+  },
+  "_indie-flower-400-normal-DFHVYtpv.woff2": {
+    "file": "assets/indie-flower-400-normal-DFHVYtpv.woff2",
+    "src": "_indie-flower-400-normal-DFHVYtpv.woff2"
+  },
+  "_lexend-variable-normal-ci0D1wrL.woff2": {
+    "file": "assets/lexend-variable-normal-ci0D1wrL.woff2",
+    "src": "_lexend-variable-normal-ci0D1wrL.woff2"
+  },
+  "_noto-sans-variable-normal-BYSzYMf3.woff2": {
+    "file": "assets/noto-sans-variable-normal-BYSzYMf3.woff2",
+    "src": "_noto-sans-variable-normal-BYSzYMf3.woff2"
+  },
+  "_varela-round-400-normal-CsVGkSoP.woff2": {
+    "file": "assets/varela-round-400-normal-CsVGkSoP.woff2",
+    "src": "_varela-round-400-normal-CsVGkSoP.woff2"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-DlqwvPQ2.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "assets": [
+      "assets/project-cham-paper-texture-C9YjYras.png"
+    ]
+  },
+  "resources/images/marketing/project-cham-about-artifact.png": {
+    "file": "assets/project-cham-about-artifact-yp-qhzLw.png",
+    "src": "resources/images/marketing/project-cham-about-artifact.png"
+  },
+  "resources/images/marketing/project-cham-about-artifacts.png": {
+    "file": "assets/project-cham-about-artifacts-C0kNviZ_.png",
+    "src": "resources/images/marketing/project-cham-about-artifacts.png"
+  },
+  "resources/images/marketing/project-cham-about-family-support.png": {
+    "file": "assets/project-cham-about-family-support-BijRePmy.png",
+    "src": "resources/images/marketing/project-cham-about-family-support.png"
+  },
+  "resources/images/marketing/project-cham-about-portrait.png": {
+    "file": "assets/project-cham-about-portrait-B5q_7570.png",
+    "src": "resources/images/marketing/project-cham-about-portrait.png"
+  },
+  "resources/images/marketing/project-cham-about-support.png": {
+    "file": "assets/project-cham-about-support-Brk8xwnz.png",
+    "src": "resources/images/marketing/project-cham-about-support.png"
+  },
+  "resources/images/marketing/project-cham-caregiver-portrait-bg.png": {
+    "file": "assets/project-cham-caregiver-portrait-bg-DRdAkpdE.png",
+    "src": "resources/images/marketing/project-cham-caregiver-portrait-bg.png"
+  },
+  "resources/images/marketing/project-cham-events-brush-texture.png": {
+    "file": "assets/project-cham-events-brush-texture-CJLsePkE.png",
+    "src": "resources/images/marketing/project-cham-events-brush-texture.png"
+  },
+  "resources/images/marketing/project-cham-family-hero.png": {
+    "file": "assets/project-cham-family-hero-Czd-UXoU.png",
+    "src": "resources/images/marketing/project-cham-family-hero.png"
+  },
+  "resources/images/marketing/project-cham-family-voices-bg.png": {
+    "file": "assets/project-cham-family-voices-bg-B_DgwCdl.png",
+    "src": "resources/images/marketing/project-cham-family-voices-bg.png"
+  },
+  "resources/images/marketing/project-cham-get-involved-advocate.png": {
+    "file": "assets/project-cham-get-involved-advocate-pX53tDpg.png",
+    "src": "resources/images/marketing/project-cham-get-involved-advocate.png"
+  },
+  "resources/images/marketing/project-cham-get-involved-partner.png": {
+    "file": "assets/project-cham-get-involved-partner-D7aeob79.png",
+    "src": "resources/images/marketing/project-cham-get-involved-partner.png"
+  },
+  "resources/images/marketing/project-cham-get-involved-support-child.png": {
+    "file": "assets/project-cham-get-involved-support-child-CH7ifbTU.png",
+    "src": "resources/images/marketing/project-cham-get-involved-support-child.png"
+  },
+  "resources/images/marketing/project-cham-impact-awareness.png": {
+    "file": "assets/project-cham-impact-awareness-CNc_r_sZ.png",
+    "src": "resources/images/marketing/project-cham-impact-awareness.png"
+  },
+  "resources/images/marketing/project-cham-impact-care-access.png": {
+    "file": "assets/project-cham-impact-care-access-BS4FWwit.png",
+    "src": "resources/images/marketing/project-cham-impact-care-access.png"
+  },
+  "resources/images/marketing/project-cham-impact-family-support.png": {
+    "file": "assets/project-cham-impact-family-support-C5Zsdb_I.png",
+    "src": "resources/images/marketing/project-cham-impact-family-support.png"
+  },
+  "resources/images/marketing/project-cham-paper-texture.png": {
+    "file": "assets/project-cham-paper-texture-C9YjYras.png",
+    "src": "resources/images/marketing/project-cham-paper-texture.png"
+  },
+  "resources/images/marketing/project-cham-programs-hero.png": {
+    "file": "assets/project-cham-programs-hero-D8u0pmFF.png",
+    "src": "resources/images/marketing/project-cham-programs-hero.png"
+  },
+  "resources/images/marketing/project-cham-programs-paper-texture.png": {
+    "file": "assets/project-cham-programs-paper-texture-CyE_pySl.png",
+    "src": "resources/images/marketing/project-cham-programs-paper-texture.png"
+  },
+  "resources/images/marketing/project-cham-team-portraits.png": {
+    "file": "assets/project-cham-team-portraits-CxEZdMgv.png",
+    "src": "resources/images/marketing/project-cham-team-portraits.png"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Blt5DhW8.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
