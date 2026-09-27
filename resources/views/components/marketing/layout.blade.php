@@ -38,7 +38,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
 
-    <body class="min-w-80 bg-cham-paper font-sans text-cham-ink antialiased selection:bg-cham-gold selection:text-cham-ink">
+    <body class="min-w-80 overflow-x-clip bg-cham-paper font-sans text-cham-ink antialiased selection:bg-cham-gold selection:text-cham-ink">
         <x-marketing.header />
 
         <main>
