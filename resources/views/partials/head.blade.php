@@ -21,9 +21,14 @@
 <meta name="twitter:description" content="Supporting children living with cancer and their families across Nigeria with awareness, clinical access, psychosocial care, and advocacy.">
 <meta name="twitter:image" content="{{ asset('og-image.png') }}">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<!-- Favicon & App Icons (Cache-busted) -->
+<link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}?v=20260928">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png') }}?v=20260928">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon-16x16.png') }}?v=20260928">
+<link rel="shortcut icon" href="{{ asset('favicon.ico') }}?v=20260928">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png') }}?v=20260928">
+<link rel="manifest" href="{{ asset('site.webmanifest') }}?v=20260928">
+<meta name="theme-color" content="#0D1C15">
 
 @fonts
 
