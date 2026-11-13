@@ -142,3 +142,104 @@ document.addEventListener('click', (event) => {
         behavior: 'smooth',
     });
 });
+
+const initFounderStoryProgress = () => {
+    const story = document.querySelector('[data-story]');
+
+    if (! story) {
+        return;
+    }
+
+    const chapters = [...story.querySelectorAll('[data-story-chapter]')];
+    const railLinks = [...story.querySelectorAll('[data-story-rail-link]')];
+    const article = story.querySelector('[data-story-article]');
+    const progressBar = story.querySelector('[data-story-progress]');
+    const minutesLeftLabels = story.querySelectorAll('[data-story-minutes-left]');
+    const currentNumber = story.querySelector('[data-story-current-number]');
+    const currentTitle = story.querySelector('[data-story-current-title]');
+    let activeIndex = -1;
+
+    const setActiveChapter = (index) => {
+        if (index === activeIndex) {
+            return;
+        }
+
+        activeIndex = index;
+
+        railLinks.forEach((link, linkIndex) => {
+            link.dataset.state = linkIndex < index ? 'done' : (linkIndex === index ? 'active' : 'upcoming');
+
+            if (linkIndex === index) {
+                link.setAttribute('aria-current', 'step');
+            } else {
+                link.removeAttribute('aria-current');
+            }
+        });
+
+        if (currentNumber) {
+            currentNumber.textContent = String(index + 1).padStart(2, '0');
+        }
+
+        if (currentTitle) {
+            currentTitle.textContent = chapters[index].dataset.title;
+        }
+    };
+
+    const update = () => {
+        const marker = window.innerHeight * 0.4;
+        let index = 0;
+
+        chapters.forEach((chapter, chapterIndex) => {
+            if (chapter.getBoundingClientRect().top <= marker) {
+                index = chapterIndex;
+            }
+        });
+
+        setActiveChapter(index);
+
+        const articleBox = article.getBoundingClientRect();
+        const travelled = Math.min(Math.max(marker - articleBox.top, 0), articleBox.height);
+        const progress = articleBox.height > 0 ? travelled / articleBox.height : 0;
+
+        if (progressBar) {
+            progressBar.style.width = `${progress * 100}%`;
+        }
+
+        const chapter = chapters[index];
+        const chapterBox = chapter.getBoundingClientRect();
+        const chapterProgress = chapterBox.height > 0 ? Math.min(Math.max((marker - chapterBox.top) / chapterBox.height, 0), 1) : 0;
+        const minutesLeft = chapters.slice(index).reduce((total, item) => total + Number(item.dataset.minutes || 0), 0)
+            - Number(chapter.dataset.minutes || 0) * chapterProgress;
+
+        const roundedMinutesLeft = Math.max(Math.ceil(minutesLeft), 0);
+
+        minutesLeftLabels.forEach((label) => {
+            label.textContent = label.dataset.storyMinutesLeft === 'short'
+                ? `${roundedMinutesLeft} min left`
+                : `${roundedMinutesLeft} ${roundedMinutesLeft === 1 ? 'minute' : 'minutes'} left`;
+        });
+    };
+
+    let frame = null;
+
+    const scheduleUpdate = () => {
+        if (frame !== null) {
+            return;
+        }
+
+        frame = requestAnimationFrame(() => {
+            frame = null;
+            update();
+        });
+    };
+
+    window.addEventListener('scroll', scheduleUpdate, { passive: true });
+    window.addEventListener('resize', scheduleUpdate);
+    update();
+};
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFounderStoryProgress);
+} else {
+    initFounderStoryProgress();
+}

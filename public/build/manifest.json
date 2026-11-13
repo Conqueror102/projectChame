@@ -20,7 +20,7 @@
     "src": "_varela-round-400-normal-CsVGkSoP.woff2"
   },
   "resources/css/app.css": {
-    "file": "assets/app-fgdkyrdY.css",
+    "file": "assets/app-CitUT9Qx.css",
     "name": "app",
     "names": [
       "app.css"
@@ -143,6 +143,14 @@
     "file": "assets/project-cham-founder-modupe-olusoga-aePSUKzv.jpeg",
     "src": "resources/images/marketing/project-cham-founder-modupe-olusoga.jpeg"
   },
+  "resources/images/marketing/project-cham-founder-story-children.jpg": {
+    "file": "assets/project-cham-founder-story-children-DJpiZthg.jpg",
+    "src": "resources/images/marketing/project-cham-founder-story-children.jpg"
+  },
+  "resources/images/marketing/project-cham-founder-story-ward.jpg": {
+    "file": "assets/project-cham-founder-story-ward-YS63XU9L.jpg",
+    "src": "resources/images/marketing/project-cham-founder-story-ward.jpg"
+  },
   "resources/images/marketing/project-cham-gallery-awareness.jpg": {
     "file": "assets/project-cham-gallery-awareness-C1ctUWzI.jpg",
     "src": "resources/images/marketing/project-cham-gallery-awareness.jpg"
@@ -244,7 +252,7 @@
     "src": "resources/images/marketing/project-cham-team-portraits.png"
   },
   "resources/js/app.js": {
-    "file": "assets/app-Blt5DhW8.js",
+    "file": "assets/app-CpD7cMFT.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true
