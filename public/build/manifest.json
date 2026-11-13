@@ -20,7 +20,7 @@
     "src": "_varela-round-400-normal-CsVGkSoP.woff2"
   },
   "resources/css/app.css": {
-    "file": "assets/app-CGnbEnSb.css",
+    "file": "assets/app-fgdkyrdY.css",
     "name": "app",
     "names": [
       "app.css"
@@ -54,6 +54,22 @@
   "resources/images/marketing/project-cham-caregiver-portrait-bg.png": {
     "file": "assets/project-cham-caregiver-portrait-bg-DRdAkpdE.png",
     "src": "resources/images/marketing/project-cham-caregiver-portrait-bg.png"
+  },
+  "resources/images/marketing/project-cham-colour-their-world-gifts.jpg": {
+    "file": "assets/project-cham-colour-their-world-gifts-C3I117wX.jpg",
+    "src": "resources/images/marketing/project-cham-colour-their-world-gifts.jpg"
+  },
+  "resources/images/marketing/project-cham-colour-their-world-orphanage.jpg": {
+    "file": "assets/project-cham-colour-their-world-orphanage-YSr_-QRH.jpg",
+    "src": "resources/images/marketing/project-cham-colour-their-world-orphanage.jpg"
+  },
+  "resources/images/marketing/project-cham-colour-their-world-team.jpg": {
+    "file": "assets/project-cham-colour-their-world-team-Bv3PANHv.jpg",
+    "src": "resources/images/marketing/project-cham-colour-their-world-team.jpg"
+  },
+  "resources/images/marketing/project-cham-colour-their-world-ward.jpg": {
+    "file": "assets/project-cham-colour-their-world-ward-BDrXU2Lf.jpg",
+    "src": "resources/images/marketing/project-cham-colour-their-world-ward.jpg"
   },
   "resources/images/marketing/project-cham-events-brush-texture.png": {
     "file": "assets/project-cham-events-brush-texture-CJLsePkE.png",

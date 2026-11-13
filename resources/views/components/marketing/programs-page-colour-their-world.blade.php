@@ -1,13 +1,13 @@
 @php
     /*
-     * Gift tags hanging from the garland. Images are stand-ins until the Colour Their World photos arrive:
+     * Gift tags hanging from the garland. Images are free Freepik stock stand-ins (attribution shown below the tags) until the Colour Their World photos arrive:
      * replace each 'image' with the real photo under resources/images/marketing/, then run `npm run build`.
      */
     $colourTheirWorldTags = [
-        ['label' => 'Oncology ward visit', 'note' => 'to the bravest kids on the ward', 'caption' => 'Hospital visit moments at the paediatric oncology ward', 'image' => 'resources/images/marketing/project-cham-impact-care-access.png', 'tilt' => '-4deg', 'thread' => 'h-20'],
-        ['label' => 'Orphanage celebration', 'note' => 'a whole room singing happy birthday', 'caption' => 'Orphanage visit celebrations', 'image' => 'resources/images/marketing/project-cham-get-involved-support-child.png', 'tilt' => '3deg', 'thread' => 'h-20 lg:h-44'],
-        ['label' => 'The CHAM team', 'note' => 'team pink, reporting for fun', 'caption' => 'The Project CHAM team in branded t-shirts', 'image' => 'resources/images/marketing/project-cham-about-support.png', 'tilt' => '-2deg', 'thread' => 'h-20 lg:h-12'],
-        ['label' => 'Gift handovers', 'note' => 'gifts, games &amp; too much cake', 'caption' => 'Gift handovers, games, and birthday celebrations', 'image' => 'resources/images/marketing/project-cham-impact-family-support.png', 'tilt' => '4deg', 'thread' => 'h-20 lg:h-32'],
+        ['label' => 'Oncology ward visit', 'note' => 'to the bravest kids on the ward', 'caption' => 'Hospital visit moments at the paediatric oncology ward', 'image' => 'resources/images/marketing/project-cham-colour-their-world-ward.jpg', 'tilt' => '-4deg', 'thread' => 'h-20'],
+        ['label' => 'Orphanage celebration', 'note' => 'a whole room singing happy birthday', 'caption' => 'Orphanage visit celebrations', 'image' => 'resources/images/marketing/project-cham-colour-their-world-orphanage.jpg', 'tilt' => '3deg', 'thread' => 'h-20 lg:h-44'],
+        ['label' => 'The CHAM team', 'note' => 'team CHAM, reporting for fun', 'caption' => 'The Project CHAM team in branded t-shirts', 'image' => 'resources/images/marketing/project-cham-colour-their-world-team.jpg', 'tilt' => '-2deg', 'thread' => 'h-20 lg:h-12'],
+        ['label' => 'Gift handovers', 'note' => 'gifts, games &amp; too much cake', 'caption' => 'Gift handovers, games, and birthday celebrations', 'image' => 'resources/images/marketing/project-cham-colour-their-world-gifts.jpg', 'tilt' => '4deg', 'thread' => 'h-20 lg:h-32'],
     ];
 @endphp
 
@@ -56,6 +56,7 @@
                     </li>
                 @endforeach
             </ul>
+            <p class="text-right text-[0.65rem] text-white/35 lg:mt-2">Stand-in photos: Freepik</p>
         </div>
     </x-marketing.container>
 </section>
