@@ -42,8 +42,8 @@
                     class="aspect-[761/1080] w-full object-cover object-top"
                     src="{{ Vite::asset('resources/images/marketing/project-cham-founder-modupe-olusoga.jpeg') }}"
                     alt="Portrait of Modupe Olusoga, Founder of Project CHAM"
-                    width="761"
-                    height="1080"
+                    width="1047"
+                    height="1486"
                 >
             </div>
             <figcaption class="absolute -bottom-5 left-6 rounded-full bg-cham-primary px-5 py-3 text-xs font-extrabold tracking-[0.11em] text-white uppercase shadow-xl">
