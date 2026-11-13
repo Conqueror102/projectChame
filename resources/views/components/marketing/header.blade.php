@@ -103,10 +103,6 @@
                 @else
                     <a class="marketing-focus-ring whitespace-nowrap rounded-full px-3 py-2 text-xs xl:text-sm font-semibold text-white/70 transition hover:bg-white/5 hover:text-white" href="{{ route('dashboard') }}">Dashboard</a>
                 @endif
-            @else
-                @if (Route::has('login'))
-                    <a class="marketing-focus-ring whitespace-nowrap rounded-full px-2.5 py-2 text-xs xl:text-sm font-semibold text-white/70 transition hover:bg-white/5 hover:text-white" href="{{ route('login') }}">Sign in</a>
-                @endif
             @endauth
 
             <x-marketing.button-link :href="route('donate')" class="whitespace-nowrap px-4 py-2 text-xs xl:text-sm">
