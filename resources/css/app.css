@@ -105,6 +105,16 @@ select:focus[data-flux-control] {
     @apply outline-hidden ring-2 ring-accent ring-offset-2 ring-offset-accent-foreground;
 }
 
+@keyframes marketing-gift-tag-sway {
+    from {
+        transform: rotate(calc(var(--tag-tilt, 0deg) - 1.5deg));
+    }
+
+    to {
+        transform: rotate(calc(var(--tag-tilt, 0deg) + 1.5deg));
+    }
+}
+
 @layer components {
     .marketing-paper {
         background-color: var(--color-cham-paper);
@@ -112,6 +122,22 @@ select:focus[data-flux-control] {
             linear-gradient(rgb(248 247 250 / 0.7), rgb(248 247 250 / 0.7)),
             url('../images/marketing/project-cham-paper-texture.png');
         background-size: auto, 640px 640px;
+    }
+
+    .marketing-gift-tag {
+        clip-path: polygon(18% 0, 82% 0, 100% 11%, 100% 100%, 0 100%, 0 11%);
+    }
+
+    .marketing-gift-tag-sway {
+        transform-origin: 50% 0;
+        transform: rotate(var(--tag-tilt, 0deg));
+        animation: marketing-gift-tag-sway 6s ease-in-out infinite alternate;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .marketing-gift-tag-sway {
+            animation: none;
+        }
     }
 
     .marketing-focus-ring {

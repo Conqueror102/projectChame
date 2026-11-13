@@ -49,5 +49,5 @@ test('renders the Project Cham homepage', function () {
         ->assertSeeText('Start a conversation')
         ->assertSee('Project Cham on Facebook')
         ->assertSee('Project Cham on Instagram')
-        ->assertSee('Project Cham on X');
+        ->assertSee('Project Cham on LinkedIn');
 });

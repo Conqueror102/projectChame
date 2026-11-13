@@ -52,7 +52,7 @@ The homepage closes with a compact dark navy Get Involved banner using project-c
 Match the approved reference structure: centered Stories intro and CTA, two equal featured story cards with large images and full metadata bodies, plus four compact image-and-title rows in the right column. Keep Project Cham-specific childhood cancer content and the approved pink/blue palette.
 
 ## Use icon-only social links in the marketing footer
-Keep the marketing footer structured as newsletter, four information columns, watermark, and copyright bar. Facebook, Instagram, and X links must be circular SVG icon buttons with accessible labels—never text pills. Avoid inventing phone numbers, addresses, or email details.
+Keep the marketing footer structured as newsletter, four information columns, watermark, and copyright bar. Facebook, Instagram, and LinkedIn links must be circular SVG icon buttons with accessible labels—never text pills. Social URLs and the official phone, WhatsApp, and email come from config/project-cham.php (supplied in the Nov 2026 content pack); never invent other contact details.
 
 ## Homepage gallery replaces recent support
 The homepage uses a normal-height five-image editorial bento gallery in place of the Recent Support carousel. Keep one large anchor image, four staggered supporting frames, story-led captions, subtle hover motion, and the approved pink/blue/charcoal palette. Reuse the gallery-tile component and avoid donation-style metadata.

@@ -20,7 +20,7 @@
     "src": "_varela-round-400-normal-CsVGkSoP.woff2"
   },
   "resources/css/app.css": {
-    "file": "assets/app-BTv7vABg.css",
+    "file": "assets/app-fgdkyrdY.css",
     "name": "app",
     "names": [
       "app.css"
@@ -43,21 +43,93 @@
     "file": "assets/project-cham-about-family-support-BijRePmy.png",
     "src": "resources/images/marketing/project-cham-about-family-support.png"
   },
+  "resources/images/marketing/project-cham-about-hero-learning.jpg": {
+    "file": "assets/project-cham-about-hero-learning-JKJwd8KE.jpg",
+    "src": "resources/images/marketing/project-cham-about-hero-learning.jpg"
+  },
+  "resources/images/marketing/project-cham-about-mission.jpg": {
+    "file": "assets/project-cham-about-mission-RFczv1xO.jpg",
+    "src": "resources/images/marketing/project-cham-about-mission.jpg"
+  },
   "resources/images/marketing/project-cham-about-portrait.png": {
     "file": "assets/project-cham-about-portrait-B5q_7570.png",
     "src": "resources/images/marketing/project-cham-about-portrait.png"
+  },
+  "resources/images/marketing/project-cham-about-story-care.jpg": {
+    "file": "assets/project-cham-about-story-care-D254d8jg.jpg",
+    "src": "resources/images/marketing/project-cham-about-story-care.jpg"
+  },
+  "resources/images/marketing/project-cham-about-story-support.jpg": {
+    "file": "assets/project-cham-about-story-support-C3DqU-By.jpg",
+    "src": "resources/images/marketing/project-cham-about-story-support.jpg"
   },
   "resources/images/marketing/project-cham-about-support.png": {
     "file": "assets/project-cham-about-support-Brk8xwnz.png",
     "src": "resources/images/marketing/project-cham-about-support.png"
   },
+  "resources/images/marketing/project-cham-blog-advocacy.jpg": {
+    "file": "assets/project-cham-blog-advocacy-B33ql2yz.jpg",
+    "src": "resources/images/marketing/project-cham-blog-advocacy.jpg"
+  },
+  "resources/images/marketing/project-cham-blog-between-visits.jpg": {
+    "file": "assets/project-cham-blog-between-visits-Dq1wnZjS.jpg",
+    "src": "resources/images/marketing/project-cham-blog-between-visits.jpg"
+  },
+  "resources/images/marketing/project-cham-blog-early-action.jpg": {
+    "file": "assets/project-cham-blog-early-action-5Dtl9QX7.jpg",
+    "src": "resources/images/marketing/project-cham-blog-early-action.jpg"
+  },
+  "resources/images/marketing/project-cham-blog-family-system.jpg": {
+    "file": "assets/project-cham-blog-family-system-CuIaVSMD.jpg",
+    "src": "resources/images/marketing/project-cham-blog-family-system.jpg"
+  },
+  "resources/images/marketing/project-cham-blog-partnerships.jpg": {
+    "file": "assets/project-cham-blog-partnerships-BRw1N0VA.jpg",
+    "src": "resources/images/marketing/project-cham-blog-partnerships.jpg"
+  },
+  "resources/images/marketing/project-cham-blog-warning-signs.jpg": {
+    "file": "assets/project-cham-blog-warning-signs-C6wuynAN.jpg",
+    "src": "resources/images/marketing/project-cham-blog-warning-signs.jpg"
+  },
   "resources/images/marketing/project-cham-caregiver-portrait-bg.png": {
     "file": "assets/project-cham-caregiver-portrait-bg-DRdAkpdE.png",
     "src": "resources/images/marketing/project-cham-caregiver-portrait-bg.png"
   },
+  "resources/images/marketing/project-cham-colour-their-world-gifts.jpg": {
+    "file": "assets/project-cham-colour-their-world-gifts-C3I117wX.jpg",
+    "src": "resources/images/marketing/project-cham-colour-their-world-gifts.jpg"
+  },
+  "resources/images/marketing/project-cham-colour-their-world-orphanage.jpg": {
+    "file": "assets/project-cham-colour-their-world-orphanage-YSr_-QRH.jpg",
+    "src": "resources/images/marketing/project-cham-colour-their-world-orphanage.jpg"
+  },
+  "resources/images/marketing/project-cham-colour-their-world-team.jpg": {
+    "file": "assets/project-cham-colour-their-world-team-Bv3PANHv.jpg",
+    "src": "resources/images/marketing/project-cham-colour-their-world-team.jpg"
+  },
+  "resources/images/marketing/project-cham-colour-their-world-ward.jpg": {
+    "file": "assets/project-cham-colour-their-world-ward-BDrXU2Lf.jpg",
+    "src": "resources/images/marketing/project-cham-colour-their-world-ward.jpg"
+  },
+  "resources/images/marketing/project-cham-events-advocacy-workshop.jpg": {
+    "file": "assets/project-cham-events-advocacy-workshop-Dw4FgpYG.jpg",
+    "src": "resources/images/marketing/project-cham-events-advocacy-workshop.jpg"
+  },
+  "resources/images/marketing/project-cham-events-awareness-session.jpg": {
+    "file": "assets/project-cham-events-awareness-session-dUmM9hHu.jpg",
+    "src": "resources/images/marketing/project-cham-events-awareness-session.jpg"
+  },
   "resources/images/marketing/project-cham-events-brush-texture.png": {
     "file": "assets/project-cham-events-brush-texture-CJLsePkE.png",
     "src": "resources/images/marketing/project-cham-events-brush-texture.png"
+  },
+  "resources/images/marketing/project-cham-events-care-clinic.jpg": {
+    "file": "assets/project-cham-events-care-clinic-CSWeqgIw.jpg",
+    "src": "resources/images/marketing/project-cham-events-care-clinic.jpg"
+  },
+  "resources/images/marketing/project-cham-events-family-circle.jpg": {
+    "file": "assets/project-cham-events-family-circle-DGgyMjNw.jpg",
+    "src": "resources/images/marketing/project-cham-events-family-circle.jpg"
   },
   "resources/images/marketing/project-cham-family-hero.png": {
     "file": "assets/project-cham-family-hero-Czd-UXoU.png",
@@ -66,6 +138,30 @@
   "resources/images/marketing/project-cham-family-voices-bg.png": {
     "file": "assets/project-cham-family-voices-bg-B_DgwCdl.png",
     "src": "resources/images/marketing/project-cham-family-voices-bg.png"
+  },
+  "resources/images/marketing/project-cham-founder-modupe-olusoga.jpeg": {
+    "file": "assets/project-cham-founder-modupe-olusoga-aePSUKzv.jpeg",
+    "src": "resources/images/marketing/project-cham-founder-modupe-olusoga.jpeg"
+  },
+  "resources/images/marketing/project-cham-gallery-awareness.jpg": {
+    "file": "assets/project-cham-gallery-awareness-C1ctUWzI.jpg",
+    "src": "resources/images/marketing/project-cham-gallery-awareness.jpg"
+  },
+  "resources/images/marketing/project-cham-gallery-care-access.jpg": {
+    "file": "assets/project-cham-gallery-care-access-Bfh7q1m9.jpg",
+    "src": "resources/images/marketing/project-cham-gallery-care-access.jpg"
+  },
+  "resources/images/marketing/project-cham-gallery-child-creative.jpg": {
+    "file": "assets/project-cham-gallery-child-creative-DqdKn_kh.jpg",
+    "src": "resources/images/marketing/project-cham-gallery-child-creative.jpg"
+  },
+  "resources/images/marketing/project-cham-gallery-family-support.jpg": {
+    "file": "assets/project-cham-gallery-family-support-DjiSvO1q.jpg",
+    "src": "resources/images/marketing/project-cham-gallery-family-support.jpg"
+  },
+  "resources/images/marketing/project-cham-gallery-partners.jpg": {
+    "file": "assets/project-cham-gallery-partners-D4Eo_oZs.jpg",
+    "src": "resources/images/marketing/project-cham-gallery-partners.jpg"
   },
   "resources/images/marketing/project-cham-get-involved-advocate.png": {
     "file": "assets/project-cham-get-involved-advocate-pX53tDpg.png",
@@ -95,13 +191,53 @@
     "file": "assets/project-cham-paper-texture-C9YjYras.png",
     "src": "resources/images/marketing/project-cham-paper-texture.png"
   },
+  "resources/images/marketing/project-cham-programs-awareness-class.jpg": {
+    "file": "assets/project-cham-programs-awareness-class-DAi9cPXn.jpg",
+    "src": "resources/images/marketing/project-cham-programs-awareness-class.jpg"
+  },
+  "resources/images/marketing/project-cham-programs-awareness.jpg": {
+    "file": "assets/project-cham-programs-awareness-Dl7Tz5XA.jpg",
+    "src": "resources/images/marketing/project-cham-programs-awareness.jpg"
+  },
+  "resources/images/marketing/project-cham-programs-care-checkup.jpg": {
+    "file": "assets/project-cham-programs-care-checkup-BP1sWeIF.jpg",
+    "src": "resources/images/marketing/project-cham-programs-care-checkup.jpg"
+  },
+  "resources/images/marketing/project-cham-programs-child-support.jpg": {
+    "file": "assets/project-cham-programs-child-support-f32IancJ.jpg",
+    "src": "resources/images/marketing/project-cham-programs-child-support.jpg"
+  },
+  "resources/images/marketing/project-cham-programs-creative.jpg": {
+    "file": "assets/project-cham-programs-creative-CsMqxi8C.jpg",
+    "src": "resources/images/marketing/project-cham-programs-creative.jpg"
+  },
+  "resources/images/marketing/project-cham-programs-family-drawing.jpg": {
+    "file": "assets/project-cham-programs-family-drawing-3-XGcq7o.jpg",
+    "src": "resources/images/marketing/project-cham-programs-family-drawing.jpg"
+  },
+  "resources/images/marketing/project-cham-programs-family-navigator.jpg": {
+    "file": "assets/project-cham-programs-family-navigator-CNp6ExFY.jpg",
+    "src": "resources/images/marketing/project-cham-programs-family-navigator.jpg"
+  },
   "resources/images/marketing/project-cham-programs-hero.png": {
     "file": "assets/project-cham-programs-hero-D8u0pmFF.png",
     "src": "resources/images/marketing/project-cham-programs-hero.png"
   },
+  "resources/images/marketing/project-cham-programs-overview.jpg": {
+    "file": "assets/project-cham-programs-overview-sSemaUJw.jpg",
+    "src": "resources/images/marketing/project-cham-programs-overview.jpg"
+  },
   "resources/images/marketing/project-cham-programs-paper-texture.png": {
     "file": "assets/project-cham-programs-paper-texture-CyE_pySl.png",
     "src": "resources/images/marketing/project-cham-programs-paper-texture.png"
+  },
+  "resources/images/marketing/project-cham-programs-partnerships.jpg": {
+    "file": "assets/project-cham-programs-partnerships-CGZnYGXw.jpg",
+    "src": "resources/images/marketing/project-cham-programs-partnerships.jpg"
+  },
+  "resources/images/marketing/project-cham-programs-research-team.jpg": {
+    "file": "assets/project-cham-programs-research-team-Dl7NDQ3L.jpg",
+    "src": "resources/images/marketing/project-cham-programs-research-team.jpg"
   },
   "resources/images/marketing/project-cham-team-portraits.png": {
     "file": "assets/project-cham-team-portraits-CxEZdMgv.png",

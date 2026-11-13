@@ -24,6 +24,7 @@ use Illuminate\Support\Facades\Route;
 */
 Route::view('/', 'pages.home')->name('home');
 Route::view('/about', 'pages.about')->name('about');
+Route::view('/founder', 'pages.founder')->name('founder');
 Route::get('/team', [TeamController::class, 'index'])->name('team');
 Route::get('/team/{slug}', [TeamController::class, 'show'])->name('team.show');
 Route::view('/programs', 'pages.programs')->name('programs');

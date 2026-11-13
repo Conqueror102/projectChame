@@ -66,7 +66,7 @@
                     read-time="5 min read"
                     title="When Awareness Becomes Early Action"
                     excerpt="What families and communities can do when warning signs appear—and why informed action matters."
-                    image="resources/images/marketing/project-cham-impact-awareness.png"
+                    image="resources/images/marketing/project-cham-blog-early-action.jpg"
                     alt="A childhood-health educator guiding Black families during an awareness session"
                     :href="route('stories.index')"
                 />
@@ -76,7 +76,7 @@
                     read-time="4 min read"
                     title="What Families Need Between Hospital Visits"
                     excerpt="Structured guidance and community support can help families manage the difficult space between appointments."
-                    image="resources/images/marketing/project-cham-impact-family-support.png"
+                    image="resources/images/marketing/project-cham-blog-between-visits.jpg"
                     alt="A Black mother and child receiving practical family support"
                     :href="route('stories.index')"
                 />
@@ -86,8 +86,8 @@
                         date="22 Sep, 2026"
                         read-time="3 min read"
                         title="Understanding Childhood Cancer Warning Signs"
-                        image="resources/images/marketing/project-cham-about-support.png"
-                        alt="A Black caregiver listening during a childhood-health conversation"
+                        image="resources/images/marketing/project-cham-blog-warning-signs.jpg"
+                        alt="A Black doctor ready to talk families through warning signs"
                         :href="route('stories.index')"
                     />
 
@@ -95,7 +95,7 @@
                         date="25 Sep, 2026"
                         read-time="4 min read"
                         title="Building a Stronger Family Support System"
-                        image="resources/images/marketing/project-cham-about-family-support.png"
+                        image="resources/images/marketing/project-cham-blog-family-system.jpg"
                         alt="A Black family receiving structured support"
                         :href="route('stories.index')"
                     />
@@ -104,7 +104,7 @@
                         date="29 Sep, 2026"
                         read-time="5 min read"
                         title="How Partnerships Shorten the Path to Care"
-                        image="resources/images/marketing/project-cham-get-involved-partner.png"
+                        image="resources/images/marketing/project-cham-blog-partnerships.jpg"
                         alt="Black healthcare and community partners working together"
                         :href="route('stories.index')"
                     />
@@ -113,8 +113,8 @@
                         date="03 Oct, 2026"
                         read-time="4 min read"
                         title="Turning Advocacy Into Measurable Impact"
-                        image="resources/images/marketing/project-cham-get-involved-advocate.png"
-                        alt="A Black advocate leading a community conversation"
+                        image="resources/images/marketing/project-cham-blog-advocacy.jpg"
+                        alt="Black healthcare workers and advocates standing together"
                         :href="route('stories.index')"
                     />
                 </div>

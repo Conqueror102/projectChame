@@ -38,13 +38,13 @@
             </p>
 
             <div class="mt-6 flex items-center gap-3" aria-label="Project Cham social media">
-                <a href="#footer" aria-label="Project Cham on Facebook" class="marketing-focus-ring grid size-10 place-items-center rounded-full border border-white/12 bg-white/6 text-white transition hover:-translate-y-0.5 hover:border-cham-secondary hover:bg-cham-secondary">
+                <a href="{{ config('project-cham.social.facebook') }}" target="_blank" rel="noopener" aria-label="Project Cham on Facebook" class="marketing-focus-ring grid size-10 place-items-center rounded-full border border-white/12 bg-white/6 text-white transition hover:-translate-y-0.5 hover:border-cham-secondary hover:bg-cham-secondary">
                     <svg class="size-4.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                         <path d="M13.7 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5H17V3.6c-.7-.1-1.5-.2-2.3-.2-2.3 0-3.9 1.4-3.9 4.1v2.3H8.2V13h2.6v8h2.9Z"/>
                     </svg>
                 </a>
 
-                <a href="#footer" aria-label="Project Cham on Instagram" class="marketing-focus-ring grid size-10 place-items-center rounded-full border border-white/12 bg-white/6 text-white transition hover:-translate-y-0.5 hover:border-cham-primary hover:bg-cham-primary">
+                <a href="{{ config('project-cham.social.instagram') }}" target="_blank" rel="noopener" aria-label="Project Cham on Instagram" class="marketing-focus-ring grid size-10 place-items-center rounded-full border border-white/12 bg-white/6 text-white transition hover:-translate-y-0.5 hover:border-cham-primary hover:bg-cham-primary">
                     <svg class="size-4.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                         <rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.8"/>
                         <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/>
@@ -52,9 +52,9 @@
                     </svg>
                 </a>
 
-                <a href="#footer" aria-label="Project Cham on X" class="marketing-focus-ring grid size-10 place-items-center rounded-full border border-white/12 bg-white/6 text-white transition hover:-translate-y-0.5 hover:border-white hover:bg-white hover:text-cham-ink">
+                <a href="{{ config('project-cham.social.linkedin') }}" target="_blank" rel="noopener" aria-label="Project Cham on LinkedIn" class="marketing-focus-ring grid size-10 place-items-center rounded-full border border-white/12 bg-white/6 text-white transition hover:-translate-y-0.5 hover:border-cham-secondary hover:bg-cham-secondary">
                     <svg class="size-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                        <path d="M18.7 3H22l-7.2 8.2L23.3 21h-6.6l-5.2-6.8L5.6 21H2.3l7.7-8.8L1.8 3h6.8l4.7 6.2L18.7 3Zm-1.2 16h1.8L7.6 4.9h-2L17.5 19Z"/>
+                        <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4V21H3V9.75Zm6.5 0h3.8v1.6h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.1V21h-4v-4.95c0-1.18-.02-2.7-1.65-2.7-1.65 0-1.9 1.29-1.9 2.62V21h-4V9.75Z"/>
                     </svg>
                 </a>
             </div>
@@ -66,6 +66,7 @@
 
             <ul class="mt-5 grid gap-3 text-sm text-white/68">
                 <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('about') }}">Who we are</a></li>
+                <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('founder') }}">Our founder&rsquo;s story</a></li>
                 <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('team') }}">Our team &amp; advisors</a></li>
                 <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('programs') }}">Programs</a></li>
                 <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('stories.index') }}">Stories &amp; guidance</a></li>
@@ -84,6 +85,7 @@
                 <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('programs') }}#child-support">Child Support Program</a></li>
                 <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('programs') }}#family-support">Family Support System</a></li>
                 <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('programs') }}#partnerships-outreach">Partnerships &amp; Outreach</a></li>
+                <li><a class="marketing-focus-ring rounded-sm transition hover:text-white" href="{{ route('programs') }}#colour-their-world">Colour Their World</a></li>
             </ul>
         </div>
 
@@ -94,6 +96,33 @@
             <p class="mt-5 text-sm leading-6 text-white/68">
                 Based in Nigeria and working through healthcare, family, and community partnerships.
             </p>
+
+            <ul class="mt-5 grid gap-3 text-sm text-white/80">
+                <li>
+                    <a href="{{ config('project-cham.contact.phone_href') }}" class="marketing-focus-ring inline-flex items-center gap-2 rounded-sm transition hover:text-white">
+                        <svg class="size-4 shrink-0" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                            <path d="M5.5 3h2.2l1.1 3.6-1.6 1.2a9 9 0 0 0 5 5l1.2-1.6 3.6 1.1v2.2A1.5 1.5 0 0 1 15.5 16 12.5 12.5 0 0 1 4 4.5 1.5 1.5 0 0 1 5.5 3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                        </svg>
+                        <span><span class="sr-only">Call </span>{{ config('project-cham.contact.phone') }}</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ config('project-cham.contact.whatsapp_url') }}" target="_blank" rel="noopener" class="marketing-focus-ring inline-flex items-center gap-2 rounded-sm transition hover:text-white">
+                        <svg class="size-4 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M12 2.2a9.8 9.8 0 0 0-8.4 14.8L2.2 21.8l4.9-1.3A9.8 9.8 0 1 0 12 2.2Zm0 17.8a8 8 0 0 1-4.1-1.1l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 1 1 12 20Zm4.4-6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.8 1c-.1.2-.3.2-.5.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5a.9.9 0 0 0-.7.3 2.8 2.8 0 0 0-.9 2.1 4.9 4.9 0 0 0 1 2.6 11.2 11.2 0 0 0 4.3 3.8c1.6.7 2.2.7 3 .6a2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3Z"/>
+                        </svg>
+                        <span>WhatsApp {{ config('project-cham.contact.whatsapp') }}</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:{{ config('project-cham.contact.email') }}" class="marketing-focus-ring inline-flex items-center gap-2 rounded-sm break-all transition hover:text-white">
+                        <svg class="size-4 shrink-0" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                            <path d="M3 5.5h14v9H3v-9Zm0 .5 7 5 7-5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                        </svg>
+                        <span>{{ config('project-cham.contact.email') }}</span>
+                    </a>
+                </li>
+            </ul>
 
             <div class="mt-5 grid gap-3 text-sm font-bold">
                 <a href="{{ route('donate') }}" class="marketing-focus-ring inline-flex items-center gap-2 rounded-sm text-cham-blue-200 transition hover:text-white">
@@ -119,7 +148,7 @@
 
     <div class="border-t border-white/10">
         <x-marketing.container class="flex flex-col gap-2 py-5 text-xs text-white/48 sm:flex-row sm:items-center sm:justify-between">
-            <p>&copy; {{ date('Y') }} Project Cham. All rights reserved.</p>
+            <p>&copy; {{ date('Y') }} Project Cham. All rights reserved. <span class="text-white/35">Some stand-in photos by Freepik and Unsplash.</span></p>
             <div class="flex items-center gap-3">
                 <p>Care · Hope · Impact</p>
                 <span class="text-white/20">|</span>

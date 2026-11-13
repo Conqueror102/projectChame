@@ -4,7 +4,7 @@
             <div class="overflow-hidden rounded-[2.25rem] bg-cham-blue-100 shadow-[0_28px_80px_rgb(10_35_68_/_0.16)]">
                 <img
                     class="h-[32rem] w-full object-cover object-center sm:h-[40rem]"
-                    src="{{ Vite::asset('resources/images/marketing/project-cham-impact-family-support.png') }}"
+                    src="{{ Vite::asset('resources/images/marketing/project-cham-programs-child-support.jpg') }}"
                     alt="A Nigerian child receiving attentive support during a creative care activity"
                     width="1456"
                     height="1092"

@@ -62,8 +62,8 @@
                     date="14 Sep, 2026"
                     location="Lagos, Nigeria"
                     title="Childhood Cancer Awareness Session"
-                    image="resources/images/marketing/project-cham-impact-awareness.png"
-                    alt="A Black childhood-health educator speaking with families"
+                    image="resources/images/marketing/project-cham-events-awareness-session.jpg"
+                    alt="A Black health educator speaking with a parent at a group session"
                     :href="route('events.index')"
                 />
 
@@ -72,8 +72,8 @@
                     date="19 Sep, 2026"
                     location="Ikeja, Lagos"
                     title="Family Support Circle"
-                    image="resources/images/marketing/project-cham-get-involved-support-child.png"
-                    alt="A Black child and mother sharing a creative activity with a support volunteer"
+                    image="resources/images/marketing/project-cham-events-family-circle.jpg"
+                    alt="A Black mother and daughter painting together during a creative session"
                     :href="route('events.index')"
                 />
 
@@ -82,8 +82,8 @@
                     date="26 Sep, 2026"
                     location="Surulere, Lagos"
                     title="Care Access Partner Clinic"
-                    image="resources/images/marketing/project-cham-impact-care-access.png"
-                    alt="A Black mother and child welcomed by a patient navigator"
+                    image="resources/images/marketing/project-cham-events-care-clinic.jpg"
+                    alt="A Black doctor at her desk with a young patient"
                     :href="route('events.index')"
                 />
 
@@ -92,8 +92,8 @@
                     date="03 Oct, 2026"
                     location="Lagos, Nigeria"
                     title="Community Advocacy Workshop"
-                    image="resources/images/marketing/project-cham-get-involved-advocate.png"
-                    alt="A young Black woman leading a community awareness conversation"
+                    image="resources/images/marketing/project-cham-events-advocacy-workshop.jpg"
+                    alt="Health workers talking with community members"
                     :href="route('events.index')"
                     image-position="center 42%"
                 />
