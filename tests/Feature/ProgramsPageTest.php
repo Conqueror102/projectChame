@@ -21,5 +21,7 @@ test('renders the Project Cham programs page', function () {
         ->assertSeeText('Expanded reach')
         ->assertSeeText('Increased access to resources')
         ->assertSeeText('Sustainable impact')
+        ->assertSeeText('Colour Their World')
+        ->assertSeeText('Colour Their World is Project CHAM\'s signature initiative', false)
         ->assertSeeText('From awareness to care, every program moves the child forward.');
 });

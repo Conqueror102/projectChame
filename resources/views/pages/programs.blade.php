@@ -8,5 +8,6 @@
     <x-marketing.programs-page-awareness />
     <x-marketing.programs-page-family-support />
     <x-marketing.programs-page-partnerships />
+    <x-marketing.programs-page-colour-their-world />
     <x-marketing.programs-page-pathway />
 </x-marketing.layout>

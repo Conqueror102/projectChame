@@ -54,6 +54,13 @@
                 Too often, treatment is delayed because warning signs are not recognized early, and families feel utterly isolated between clinic appointments. We founded Project CHAM to change this reality—standing directly at the bedside with practical relief, clinical access pathways, caregiver support, and community awareness.
             </p>
 
+            <a href="{{ route('founder') }}" class="marketing-focus-ring mt-6 inline-flex items-center gap-2 rounded-sm text-sm font-bold text-cham-secondary transition hover:text-cham-primary">
+                Read our founder's story
+                <svg class="size-4" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                    <path d="M4 10h11m-4.5-4.5L15 10l-4.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+
             <div class="mt-8 grid gap-4 sm:grid-cols-2">
                 <div class="rounded-[1.5rem] border border-cham-pink-200 bg-white p-5 shadow-sm">
                     <p class="text-xs font-extrabold tracking-[0.1em] text-cham-primary uppercase">Our Conviction</p>

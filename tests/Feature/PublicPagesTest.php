@@ -10,6 +10,7 @@ test('public pages are accessible to guests', function (string $url) {
     $response->assertOk();
 })->with([
     '/about',
+    '/founder',
     '/team',
     '/donate',
     '/gallery',

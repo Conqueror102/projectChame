@@ -1,6 +1,6 @@
 @php
     $homeIsActive = request()->routeIs('home');
-    $aboutIsActive = request()->routeIs('about') || request()->routeIs('team');
+    $aboutIsActive = request()->routeIs('about') || request()->routeIs('founder') || request()->routeIs('team');
     $programsIsActive = request()->routeIs('programs');
     $storiesIsActive = request()->routeIs('stories.*');
     $communityIsActive = request()->routeIs('events.*') || request()->routeIs('gallery');
@@ -38,6 +38,11 @@
                             'bg-white/10 text-cham-primary' => request()->routeIs('about'),
                             'text-white/75 hover:bg-white/10 hover:text-white' => ! request()->routeIs('about'),
                         ])>Who We Are</a>
+                        <a href="{{ route('founder') }}" @class([
+                            'block rounded-xl px-3.5 py-2.5 text-xs font-semibold transition',
+                            'bg-white/10 text-cham-primary' => request()->routeIs('founder'),
+                            'text-white/75 hover:bg-white/10 hover:text-white' => ! request()->routeIs('founder'),
+                        ])>Our Founder's Story</a>
                         <a href="{{ route('team') }}" @class([
                             'block rounded-xl px-3.5 py-2.5 text-xs font-semibold transition',
                             'bg-white/10 text-cham-primary' => request()->routeIs('team'),
@@ -123,6 +128,7 @@
             <nav class="absolute top-12 right-0 z-50 grid w-64 gap-1 rounded-2xl border border-white/15 bg-cham-ink p-3 shadow-2xl" aria-label="Mobile navigation">
                 <a @class(['rounded-full px-4 py-3 text-sm font-semibold', 'bg-white/5 text-cham-primary' => $homeIsActive, 'text-white/75 hover:bg-white/5 hover:text-white' => ! $homeIsActive]) href="{{ route('home') }}">Home</a>
                 <a @class(['rounded-full px-4 py-3 text-sm font-semibold', 'bg-white/5 text-cham-primary' => request()->routeIs('about'), 'text-white/75 hover:bg-white/5 hover:text-white' => ! request()->routeIs('about')]) href="{{ route('about') }}">About Us</a>
+                <a @class(['rounded-full px-4 py-3 text-sm font-semibold', 'bg-white/5 text-cham-primary' => request()->routeIs('founder'), 'text-white/75 hover:bg-white/5 hover:text-white' => ! request()->routeIs('founder')]) href="{{ route('founder') }}">Our Founder</a>
                 <a @class(['rounded-full px-4 py-3 text-sm font-semibold', 'bg-white/5 text-cham-primary' => request()->routeIs('team'), 'text-white/75 hover:bg-white/5 hover:text-white' => ! request()->routeIs('team')]) href="{{ route('team') }}">Our Team</a>
                 <a @class(['rounded-full px-4 py-3 text-sm font-semibold', 'bg-white/5 text-cham-primary' => $programsIsActive, 'text-white/75 hover:bg-white/5 hover:text-white' => ! $programsIsActive]) href="{{ route('programs') }}">Programs</a>
                 <a @class(['rounded-full px-4 py-3 text-sm font-semibold', 'bg-white/5 text-cham-primary' => $storiesIsActive, 'text-white/75 hover:bg-white/5 hover:text-white' => ! $storiesIsActive]) href="{{ route('stories.index') }}">Stories &amp; Guides</a>
