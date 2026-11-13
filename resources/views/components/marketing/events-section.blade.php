@@ -62,8 +62,8 @@
                     date="14 Sep, 2026"
                     location="Lagos, Nigeria"
                     title="Childhood Cancer Awareness Session"
-                    image="resources/images/marketing/project-cham-impact-awareness.png"
-                    alt="A Black childhood-health educator speaking with families"
+                    image="resources/images/marketing/project-cham-events-awareness-session.jpg"
+                    alt="A Black health educator speaking with a parent at a group session"
                     :href="route('events.index')"
                 />
 
@@ -72,8 +72,8 @@
                     date="19 Sep, 2026"
                     location="Ikeja, Lagos"
                     title="Family Support Circle"
-                    image="resources/images/marketing/project-cham-get-involved-support-child.png"
-                    alt="A Black child and mother sharing a creative activity with a support volunteer"
+                    image="resources/images/marketing/project-cham-events-family-circle.jpg"
+                    alt="A Black mother and daughter painting together during a creative session"
                     :href="route('events.index')"
                 />
 

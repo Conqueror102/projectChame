@@ -71,9 +71,17 @@
     "file": "assets/project-cham-colour-their-world-ward-BDrXU2Lf.jpg",
     "src": "resources/images/marketing/project-cham-colour-their-world-ward.jpg"
   },
+  "resources/images/marketing/project-cham-events-awareness-session.jpg": {
+    "file": "assets/project-cham-events-awareness-session-dUmM9hHu.jpg",
+    "src": "resources/images/marketing/project-cham-events-awareness-session.jpg"
+  },
   "resources/images/marketing/project-cham-events-brush-texture.png": {
     "file": "assets/project-cham-events-brush-texture-CJLsePkE.png",
     "src": "resources/images/marketing/project-cham-events-brush-texture.png"
+  },
+  "resources/images/marketing/project-cham-events-family-circle.jpg": {
+    "file": "assets/project-cham-events-family-circle-DGgyMjNw.jpg",
+    "src": "resources/images/marketing/project-cham-events-family-circle.jpg"
   },
   "resources/images/marketing/project-cham-family-hero.png": {
     "file": "assets/project-cham-family-hero-Czd-UXoU.png",
@@ -115,6 +123,18 @@
     "file": "assets/project-cham-paper-texture-C9YjYras.png",
     "src": "resources/images/marketing/project-cham-paper-texture.png"
   },
+  "resources/images/marketing/project-cham-programs-awareness-class.jpg": {
+    "file": "assets/project-cham-programs-awareness-class-DAi9cPXn.jpg",
+    "src": "resources/images/marketing/project-cham-programs-awareness-class.jpg"
+  },
+  "resources/images/marketing/project-cham-programs-care-checkup.jpg": {
+    "file": "assets/project-cham-programs-care-checkup-BP1sWeIF.jpg",
+    "src": "resources/images/marketing/project-cham-programs-care-checkup.jpg"
+  },
+  "resources/images/marketing/project-cham-programs-family-drawing.jpg": {
+    "file": "assets/project-cham-programs-family-drawing-3-XGcq7o.jpg",
+    "src": "resources/images/marketing/project-cham-programs-family-drawing.jpg"
+  },
   "resources/images/marketing/project-cham-programs-hero.png": {
     "file": "assets/project-cham-programs-hero-D8u0pmFF.png",
     "src": "resources/images/marketing/project-cham-programs-hero.png"
@@ -122,6 +142,10 @@
   "resources/images/marketing/project-cham-programs-paper-texture.png": {
     "file": "assets/project-cham-programs-paper-texture-CyE_pySl.png",
     "src": "resources/images/marketing/project-cham-programs-paper-texture.png"
+  },
+  "resources/images/marketing/project-cham-programs-research-team.jpg": {
+    "file": "assets/project-cham-programs-research-team-Dl7NDQ3L.jpg",
+    "src": "resources/images/marketing/project-cham-programs-research-team.jpg"
   },
   "resources/images/marketing/project-cham-team-portraits.png": {
     "file": "assets/project-cham-team-portraits-CxEZdMgv.png",

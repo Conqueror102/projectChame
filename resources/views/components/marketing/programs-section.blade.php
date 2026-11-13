@@ -39,7 +39,7 @@
             <x-marketing.program-card
                 title="Awareness & Early Action"
                 description="Educating parents, caregivers, and communities to recognize early warning signs and seek medical evaluation promptly."
-                image="resources/images/marketing/project-cham-about-support.png"
+                image="resources/images/marketing/project-cham-programs-awareness-class.jpg"
                 alt="Black children and educator participating in a guided awareness session"
                 image-position="center"
             >
@@ -53,7 +53,7 @@
             <x-marketing.program-card
                 title="Treatment & Care Support"
                 description="Helping children and families access essential clinical support, medications, chemotherapy, and diagnostic biopsies."
-                image="resources/images/marketing/project-cham-about-family-support.png"
+                image="resources/images/marketing/project-cham-programs-care-checkup.jpg"
                 alt="Healthcare professional and volunteer assisting a child during care"
                 image-position="center"
             >
@@ -67,8 +67,8 @@
             <x-marketing.program-card
                 title="Family & Psychosocial Support"
                 description="Recognizing that cancer affects the entire family through emotional circles, emergency relief, and caregiver sustenance."
-                image="resources/images/marketing/project-cham-about-portrait.png"
-                alt="Children taking part in a supportive art and counseling activity"
+                image="resources/images/marketing/project-cham-programs-family-drawing.jpg"
+                alt="A child absorbed in a supportive art activity"
                 image-position="52% center"
             >
                 <x-slot:icon>
@@ -81,7 +81,7 @@
             <x-marketing.program-card
                 title="Research & Advocacy"
                 description="Using evidence, epidemiological data, and institutional clinical partnerships to improve childhood cancer outcomes and policy."
-                image="resources/images/marketing/project-cham-get-involved-partner.png"
+                image="resources/images/marketing/project-cham-programs-research-team.jpg"
                 alt="Healthcare and research partners collaborating on paediatric oncology outcomes"
                 image-position="center"
             >
