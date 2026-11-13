@@ -7,8 +7,8 @@
                 <div class="col-span-4 row-span-5 overflow-hidden rounded-[2rem] bg-cham-blue-100 shadow-[0_24px_70px_rgb(10_35_68_/_0.14)]">
                     <img
                         class="h-full min-h-[34rem] w-full object-cover object-center"
-                        src="{{ Vite::asset('resources/images/marketing/project-cham-about-portrait.png') }}"
-                        alt="A Black support worker creating a joyful learning space with two children"
+                        src="{{ Vite::asset('resources/images/marketing/project-cham-about-story-support.jpg') }}"
+                        alt="A Black caregiver sharing a gentle moment with a young girl"
                         width="1092"
                         height="1456"
                         loading="lazy"
@@ -18,8 +18,8 @@
                 <div class="col-span-2 col-start-4 row-span-2 row-start-4 overflow-hidden rounded-[1.5rem] border-[0.45rem] border-cham-paper bg-white shadow-2xl">
                     <img
                         class="h-full w-full object-cover"
-                        src="{{ Vite::asset('resources/images/marketing/project-cham-impact-care-access.png') }}"
-                        alt="A mother and child being welcomed into a care centre"
+                        src="{{ Vite::asset('resources/images/marketing/project-cham-about-story-care.jpg') }}"
+                        alt="A smiling mother holding her young daughter"
                         width="1456"
                         height="1092"
                         loading="lazy"

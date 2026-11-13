@@ -148,7 +148,7 @@
 
     <div class="border-t border-white/10">
         <x-marketing.container class="flex flex-col gap-2 py-5 text-xs text-white/48 sm:flex-row sm:items-center sm:justify-between">
-            <p>&copy; {{ date('Y') }} Project Cham. All rights reserved. <span class="text-white/35">Some stand-in photos by Freepik.</span></p>
+            <p>&copy; {{ date('Y') }} Project Cham. All rights reserved. <span class="text-white/35">Some stand-in photos by Freepik and Unsplash.</span></p>
             <div class="flex items-center gap-3">
                 <p>Care · Hope · Impact</p>
                 <span class="text-white/20">|</span>

@@ -27,7 +27,7 @@
             <article class="relative isolate overflow-hidden rounded-[2rem] bg-cham-blue-950 text-white lg:col-span-5 lg:min-h-[32rem]">
                 <img
                     class="absolute inset-0 h-full w-full object-cover opacity-32"
-                    src="{{ Vite::asset('resources/images/marketing/project-cham-impact-care-access.png') }}"
+                    src="{{ Vite::asset('resources/images/marketing/project-cham-about-mission.jpg') }}"
                     alt=""
                     width="1456"
                     height="1092"

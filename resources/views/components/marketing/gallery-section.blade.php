@@ -63,7 +63,7 @@
             @else
                 <x-marketing.gallery-tile
                     class="col-span-2 row-span-2 lg:col-span-5"
-                    image="resources/images/marketing/project-cham-get-involved-support-child.png"
+                    image="resources/images/marketing/project-cham-gallery-child-creative.jpg"
                     alt="A Black child enjoying a creative support session with her family and a Project Cham volunteer"
                     eyebrow="Child & family support"
                     title="Room to learn, laugh, and still feel like a child"
@@ -73,7 +73,7 @@
 
                 <x-marketing.gallery-tile
                     class="col-span-2 lg:col-span-4"
-                    image="resources/images/marketing/project-cham-impact-awareness.png"
+                    image="resources/images/marketing/project-cham-gallery-awareness.jpg"
                     alt="A Project Cham educator leading a childhood cancer awareness conversation with families"
                     eyebrow="Awareness & advocacy"
                     title="Knowledge shared before care is urgent"
@@ -83,7 +83,7 @@
 
                 <x-marketing.gallery-tile
                     class="col-span-1 lg:col-span-3"
-                    image="resources/images/marketing/project-cham-impact-care-access.png"
+                    image="resources/images/marketing/project-cham-gallery-care-access.jpg"
                     alt="A mother and child being welcomed by a healthcare professional"
                     eyebrow="Access to care"
                     title="A clearer way into care"
@@ -93,7 +93,7 @@
 
                 <x-marketing.gallery-tile
                     class="col-span-1 lg:col-span-3"
-                    image="resources/images/marketing/project-cham-get-involved-partner.png"
+                    image="resources/images/marketing/project-cham-gallery-partners.jpg"
                     alt="Healthcare and community partners planning coordinated support together"
                     eyebrow="Partnerships"
                     title="Care teams moving as one"
@@ -103,8 +103,8 @@
 
                 <x-marketing.gallery-tile
                     class="col-span-2 lg:col-span-4"
-                    image="resources/images/marketing/project-cham-impact-family-support.png"
-                    alt="A Black child drawing with a caregiver and a family support professional"
+                    image="resources/images/marketing/project-cham-gallery-family-support.jpg"
+                    alt="A Black family playing a board game together"
                     eyebrow="Family support"
                     title="Support that continues between appointments"
                     number="05"

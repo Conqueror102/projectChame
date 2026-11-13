@@ -31,8 +31,8 @@
             <div class="relative min-h-[30rem] lg:col-span-7 lg:min-h-[39rem]">
                 <img
                     class="absolute inset-0 h-full w-full object-cover object-center"
-                    src="{{ Vite::asset('resources/images/marketing/project-cham-impact-awareness.png') }}"
-                    alt="A childhood cancer educator leading a community awareness session with Nigerian families"
+                    src="{{ Vite::asset('resources/images/marketing/project-cham-programs-awareness.jpg') }}"
+                    alt="Girls holding books at a community awareness session"
                     width="1456"
                     height="1092"
                     loading="lazy"

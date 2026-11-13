@@ -16,8 +16,8 @@
             <div class="relative min-h-[31rem] lg:col-span-8 lg:min-h-[36rem]">
                 <img
                     class="absolute inset-0 h-full w-full object-cover object-center"
-                    src="{{ Vite::asset('resources/images/marketing/project-cham-get-involved-partner.png') }}"
-                    alt="Nigerian healthcare and community partners planning child support together"
+                    src="{{ Vite::asset('resources/images/marketing/project-cham-programs-partnerships.jpg') }}"
+                    alt="A Black healthcare worker coordinating care records at her desk"
                     width="1456"
                     height="1092"
                     loading="lazy"

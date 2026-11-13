@@ -82,8 +82,8 @@
                     date="26 Sep, 2026"
                     location="Surulere, Lagos"
                     title="Care Access Partner Clinic"
-                    image="resources/images/marketing/project-cham-impact-care-access.png"
-                    alt="A Black mother and child welcomed by a patient navigator"
+                    image="resources/images/marketing/project-cham-events-care-clinic.jpg"
+                    alt="A Black doctor at her desk with a young patient"
                     :href="route('events.index')"
                 />
 
@@ -92,8 +92,8 @@
                     date="03 Oct, 2026"
                     location="Lagos, Nigeria"
                     title="Community Advocacy Workshop"
-                    image="resources/images/marketing/project-cham-get-involved-advocate.png"
-                    alt="A young Black woman leading a community awareness conversation"
+                    image="resources/images/marketing/project-cham-events-advocacy-workshop.jpg"
+                    alt="Health workers talking with community members"
                     :href="route('events.index')"
                     image-position="center 42%"
                 />

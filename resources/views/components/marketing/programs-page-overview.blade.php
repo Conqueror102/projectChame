@@ -14,7 +14,7 @@
             <div class="mt-8 overflow-hidden rounded-[1.75rem] bg-cham-ink text-white">
                 <img
                     class="h-64 w-full object-cover object-center opacity-88"
-                    src="{{ Vite::asset('resources/images/marketing/project-cham-about-support.png') }}"
+                    src="{{ Vite::asset('resources/images/marketing/project-cham-programs-overview.jpg') }}"
                     alt="Children participating in an awareness activity with a facilitator"
                     width="1456"
                     height="1092"

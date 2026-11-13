@@ -24,8 +24,8 @@
                 <div class="col-span-8 row-span-6 overflow-hidden rounded-[2rem] bg-cham-blue-100 shadow-[0_28px_75px_rgb(10_35_68_/_0.14)]">
                     <img
                         class="h-full min-h-[38rem] w-full object-cover object-center"
-                        src="{{ Vite::asset('resources/images/marketing/project-cham-about-family-support.png') }}"
-                        alt="A Nigerian mother and child speaking with a family support navigator"
+                        src="{{ Vite::asset('resources/images/marketing/project-cham-programs-family-navigator.jpg') }}"
+                        alt="A Black family sitting together at the kitchen table"
                         width="1456"
                         height="1092"
                         loading="lazy"
@@ -34,7 +34,7 @@
                 <div class="col-span-5 col-start-8 row-span-3 row-start-1 overflow-hidden rounded-[1.5rem] border-[0.45rem] border-cham-paper bg-white shadow-2xl">
                     <img
                         class="h-full w-full object-cover object-center"
-                        src="{{ Vite::asset('resources/images/marketing/project-cham-about-portrait.png') }}"
+                        src="{{ Vite::asset('resources/images/marketing/project-cham-programs-creative.jpg') }}"
                         alt="Children taking part in a supportive creative activity"
                         width="1092"
                         height="1456"

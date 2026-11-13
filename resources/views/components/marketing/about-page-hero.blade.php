@@ -53,7 +53,7 @@
             <div class="relative min-h-[31rem] overflow-hidden rounded-[2rem] bg-cham-blue-950 sm:min-h-[39rem]">
                 <img
                     class="absolute inset-0 h-full w-full object-cover object-center"
-                    src="{{ Vite::asset('resources/images/marketing/project-cham-about-support.png') }}"
+                    src="{{ Vite::asset('resources/images/marketing/project-cham-about-hero-learning.jpg') }}"
                     alt="Black children learning together with a caring adult"
                     width="1456"
                     height="1092"
